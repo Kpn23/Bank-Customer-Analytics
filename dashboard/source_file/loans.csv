@@ -1,0 +1,3462 @@
+loan_id,customer_id,loan_amount,loan_type,loan_status
+1,1,46765.95,Home,Active
+2,1,24838.45,Home,Paid Off
+3,1,32553.61,Vacation,Paid Off
+4,1,1704.24,Home,Paid Off
+5,1,1358.38,Home Improvement,Active
+6,1,49922.08,Medical,Paid Off
+7,1,14457.97,Personal,Active
+8,2,1197.1,Auto,Active
+9,3,43222.56,Auto,Paid Off
+10,3,31598.01,Emergency,Paid Off
+11,4,37582.51,Medical,Active
+12,5,6147.83,Medical,Paid Off
+13,6,27871.75,Education,Paid Off
+14,6,17044.92,Home,Active
+15,6,34894.59,Auto,Paid Off
+16,6,28440.65,Home Improvement,Paid Off
+17,6,39045.21,Home Improvement,Paid Off
+18,6,20867.45,Green Energy,Active
+19,6,3600.96,Debt Consolidation,Paid Off
+20,7,38466.71,Home Improvement,Active
+21,7,44260.53,Vacation,Active
+22,7,40532.02,Personal,Active
+23,7,13662.27,Emergency,Paid Off
+24,8,38188.13,Vacation,Paid Off
+25,8,34869.09,Personal,Active
+26,9,26703.99,Vacation,Active
+27,9,41185.92,Auto,Paid Off
+28,9,25715.58,Debt Consolidation,Paid Off
+29,11,42212.03,Auto,Active
+30,11,23166.36,Green Energy,Paid Off
+31,11,48369.96,Green Energy,Active
+32,12,39709.55,Green Energy,Paid Off
+33,12,22930.7,Business,Paid Off
+34,13,15161.86,Personal,Paid Off
+35,13,38485.91,Auto,Paid Off
+36,13,45249.14,Personal,Active
+37,14,48731.42,Personal,Paid Off
+38,14,48884.34,Medical,Paid Off
+39,14,27764.39,Emergency,Active
+40,14,34837.55,Auto,Paid Off
+41,14,22039.59,Home,Paid Off
+42,14,44877.39,Home Improvement,Active
+43,14,31739.61,Medical,Active
+44,15,15257.75,Debt Consolidation,Active
+45,15,29811.31,Emergency,Paid Off
+46,17,46420.5,Debt Consolidation,Paid Off
+47,17,14808.67,Vacation,Paid Off
+48,17,14409.42,Emergency,Active
+49,17,20531.67,Debt Consolidation,Active
+50,18,26554.68,Medical,Paid Off
+51,18,26027.5,Auto,Paid Off
+52,18,12271.2,Emergency,Active
+53,20,12660.36,Auto,Paid Off
+54,23,43647.73,Personal,Active
+55,23,36687.09,Green Energy,Paid Off
+56,23,24667.43,Personal,Paid Off
+57,23,49395.69,Education,Active
+58,23,5786.21,Debt Consolidation,Active
+59,23,1640.15,Green Energy,Paid Off
+60,24,35412.94,Education,Active
+61,24,46793.54,Vacation,Paid Off
+62,25,20489.33,Green Energy,Active
+63,25,27427.1,Vacation,Paid Off
+64,25,9810.53,Personal,Paid Off
+65,25,33606.21,Emergency,Paid Off
+66,25,27896.45,Auto,Active
+67,25,38025.38,Personal,Paid Off
+68,26,15786.97,Personal,Active
+69,26,27563.93,Vacation,Active
+70,26,40985.73,Home,Active
+71,28,42310.22,Education,Paid Off
+72,29,21157.32,Home,Paid Off
+73,29,38486.17,Vacation,Active
+74,29,25728.56,Green Energy,Paid Off
+75,29,3548.21,Personal,Active
+76,29,20189.31,Business,Active
+77,30,40692.85,Business,Paid Off
+78,31,18014.34,Debt Consolidation,Active
+79,31,7798.45,Auto,Paid Off
+80,31,37022.87,Home Improvement,Paid Off
+81,31,22589.09,Home Improvement,Active
+82,31,34147.23,Personal,Active
+83,31,5398.32,Medical,Active
+84,31,30495.36,Education,Active
+85,33,33326.6,Home,Paid Off
+86,33,7010.5,Business,Paid Off
+87,33,26326.23,Home Improvement,Paid Off
+88,33,46156.66,Home,Paid Off
+89,33,22612.19,Auto,Active
+90,33,5798.82,Green Energy,Active
+91,33,27433.19,Education,Active
+92,36,35170.2,Education,Paid Off
+93,36,22256.87,Vacation,Active
+94,36,5560.52,Home,Active
+95,37,35847.83,Personal,Active
+96,39,21653.91,Home Improvement,Paid Off
+97,39,17881.61,Medical,Active
+98,39,36959.35,Medical,Active
+99,39,9756.74,Home,Active
+100,39,21617.28,Personal,Active
+101,41,18797.13,Green Energy,Paid Off
+102,41,2775.54,Auto,Active
+103,41,29428.42,Debt Consolidation,Paid Off
+104,41,35059.39,Vacation,Paid Off
+105,41,5867.11,Personal,Paid Off
+106,41,38636.98,Green Energy,Active
+107,42,22937.01,Home,Active
+108,42,9231.52,Medical,Paid Off
+109,42,32012.38,Business,Active
+110,42,12794.64,Education,Paid Off
+111,42,33225.22,Vacation,Active
+112,42,30573.56,Green Energy,Paid Off
+113,42,19582.64,Medical,Active
+114,43,39981.7,Emergency,Paid Off
+115,43,17606.37,Education,Paid Off
+116,44,2279.65,Home,Active
+117,44,48245.28,Home,Paid Off
+118,44,7861.89,Personal,Paid Off
+119,44,15801.95,Debt Consolidation,Active
+120,45,38774.52,Emergency,Paid Off
+121,45,41852.21,Personal,Paid Off
+122,45,9524.79,Vacation,Paid Off
+123,45,36211.55,Business,Paid Off
+124,45,32956.62,Home,Paid Off
+125,46,16982.33,Auto,Paid Off
+126,47,46606.52,Home Improvement,Paid Off
+127,47,29671.55,Green Energy,Active
+128,47,25537.7,Business,Paid Off
+129,47,29541.83,Green Energy,Paid Off
+130,47,35571.06,Green Energy,Active
+131,47,34698.19,Home,Paid Off
+132,47,24048.97,Home,Paid Off
+133,48,24794.89,Emergency,Active
+134,48,28085.17,Green Energy,Active
+135,48,49369.68,Medical,Paid Off
+136,48,8253.33,Home,Active
+137,48,30016.48,Vacation,Active
+138,48,16387.76,Auto,Paid Off
+139,48,46579.74,Debt Consolidation,Paid Off
+140,49,41047.79,Emergency,Active
+141,50,25016.9,Education,Active
+142,50,11495.29,Debt Consolidation,Active
+143,51,24303.64,Home,Active
+144,51,45217.38,Home,Active
+145,51,20788.74,Green Energy,Active
+146,51,40472.4,Auto,Active
+147,51,23216.52,Debt Consolidation,Paid Off
+148,51,25812.18,Auto,Paid Off
+149,52,47450.04,Home Improvement,Active
+150,52,40412.78,Medical,Active
+151,52,12262.19,Auto,Active
+152,52,16633.53,Home Improvement,Active
+153,53,36446.57,Education,Paid Off
+154,53,22921.07,Personal,Paid Off
+155,53,20402.02,Personal,Paid Off
+156,53,5816.94,Emergency,Active
+157,53,14901.46,Home,Active
+158,54,34284.54,Debt Consolidation,Active
+159,54,9150.04,Vacation,Active
+160,56,13320.64,Medical,Paid Off
+161,57,11880.92,Vacation,Paid Off
+162,57,36210.92,Green Energy,Paid Off
+163,57,2173.47,Green Energy,Paid Off
+164,58,33689.51,Business,Active
+165,59,3497.8,Green Energy,Active
+166,59,18135.98,Education,Active
+167,60,17800.7,Home,Paid Off
+168,60,34774.99,Auto,Active
+169,60,13667.13,Education,Active
+170,60,39610.04,Home Improvement,Paid Off
+171,60,25887.65,Green Energy,Paid Off
+172,60,32818.69,Business,Paid Off
+173,63,10627.21,Auto,Active
+174,63,4626.66,Medical,Active
+175,64,27753.72,Education,Active
+176,64,27076.62,Education,Paid Off
+177,64,6147.26,Emergency,Paid Off
+178,65,8893.2,Home,Active
+179,65,7948.19,Business,Active
+180,65,33902.08,Vacation,Active
+181,65,17957.92,Business,Paid Off
+182,65,9419.29,Medical,Active
+183,66,20625.97,Emergency,Paid Off
+184,66,4498.08,Personal,Active
+185,66,25832.95,Emergency,Active
+186,66,28598.77,Personal,Paid Off
+187,66,30441.15,Home,Paid Off
+188,66,46791.42,Business,Paid Off
+189,66,25345.05,Home,Paid Off
+190,67,3529.95,Green Energy,Paid Off
+191,67,44702.59,Home Improvement,Paid Off
+192,67,47743.95,Vacation,Paid Off
+193,67,42055.04,Education,Active
+194,68,37689.14,Education,Active
+195,68,24905.68,Green Energy,Paid Off
+196,68,25102.06,Home Improvement,Active
+197,69,2313.15,Home Improvement,Active
+198,69,40153.98,Auto,Paid Off
+199,69,45371.89,Green Energy,Paid Off
+200,69,4681.37,Debt Consolidation,Active
+201,69,32824.53,Vacation,Active
+202,70,8195.84,Personal,Active
+203,70,49012.16,Emergency,Active
+204,70,7163.12,Debt Consolidation,Active
+205,70,38731.46,Personal,Active
+206,70,23851.46,Medical,Active
+207,70,20392.37,Medical,Paid Off
+208,71,10523.32,Home Improvement,Active
+209,73,22347.07,Vacation,Active
+210,73,36176.91,Personal,Paid Off
+211,74,19186.05,Personal,Paid Off
+212,74,28913.58,Emergency,Paid Off
+213,74,2341.87,Home Improvement,Active
+214,74,5105.47,Vacation,Active
+215,75,38913.55,Vacation,Active
+216,75,16304.21,Home,Active
+217,75,19611.41,Auto,Active
+218,75,42250.01,Medical,Paid Off
+219,78,40007.0,Vacation,Paid Off
+220,78,3681.93,Debt Consolidation,Active
+221,78,47315.49,Auto,Paid Off
+222,78,36648.29,Green Energy,Active
+223,79,40396.63,Debt Consolidation,Paid Off
+224,79,24639.93,Vacation,Active
+225,79,41861.81,Vacation,Paid Off
+226,79,24499.8,Home Improvement,Active
+227,79,16403.23,Green Energy,Paid Off
+228,79,29216.5,Emergency,Paid Off
+229,79,33051.52,Vacation,Active
+230,80,30308.77,Debt Consolidation,Active
+231,80,25542.3,Debt Consolidation,Active
+232,80,44816.78,Home,Paid Off
+233,80,42065.56,Home Improvement,Paid Off
+234,80,47345.79,Home Improvement,Paid Off
+235,81,49372.59,Auto,Active
+236,82,21217.33,Home Improvement,Active
+237,82,41355.91,Medical,Active
+238,83,48660.21,Personal,Active
+239,83,29139.05,Home,Paid Off
+240,83,10456.85,Green Energy,Active
+241,83,49463.36,Emergency,Paid Off
+242,84,11853.29,Home Improvement,Paid Off
+243,84,13391.96,Emergency,Active
+244,84,40458.35,Vacation,Paid Off
+245,84,24169.98,Medical,Paid Off
+246,84,29909.83,Debt Consolidation,Paid Off
+247,84,11659.29,Home Improvement,Active
+248,85,12518.98,Vacation,Active
+249,85,45538.44,Home Improvement,Paid Off
+250,85,29420.37,Personal,Active
+251,85,33057.21,Medical,Paid Off
+252,86,32608.42,Education,Active
+253,86,23357.24,Emergency,Active
+254,86,28615.14,Home Improvement,Active
+255,86,46598.95,Emergency,Paid Off
+256,86,48278.65,Green Energy,Paid Off
+257,87,24043.51,Debt Consolidation,Active
+258,87,2542.13,Debt Consolidation,Active
+259,87,47509.32,Auto,Paid Off
+260,87,14649.33,Home,Paid Off
+261,88,9231.82,Medical,Active
+262,88,2592.64,Business,Paid Off
+263,88,2919.95,Emergency,Active
+264,88,46546.79,Vacation,Paid Off
+265,88,17713.45,Auto,Active
+266,88,30787.91,Personal,Active
+267,88,7110.96,Medical,Active
+268,89,38233.32,Business,Active
+269,89,29073.64,Auto,Paid Off
+270,89,39229.71,Medical,Active
+271,90,49792.19,Home Improvement,Active
+272,90,31022.93,Education,Active
+273,90,48391.33,Personal,Paid Off
+274,90,27767.36,Emergency,Active
+275,90,22590.93,Green Energy,Paid Off
+276,90,20828.43,Education,Active
+277,91,38602.14,Auto,Paid Off
+278,91,40748.71,Debt Consolidation,Active
+279,91,34733.84,Home,Paid Off
+280,91,31151.36,Business,Active
+281,93,18626.77,Home,Active
+282,93,22750.1,Auto,Paid Off
+283,93,34560.28,Home,Paid Off
+284,93,13486.23,Education,Paid Off
+285,93,46604.36,Business,Active
+286,93,39298.61,Vacation,Active
+287,93,9851.43,Personal,Active
+288,94,10482.95,Home Improvement,Paid Off
+289,94,26976.51,Business,Paid Off
+290,94,44330.12,Green Energy,Active
+291,95,39073.38,Emergency,Paid Off
+292,95,48815.32,Green Energy,Active
+293,95,8644.97,Emergency,Paid Off
+294,95,13583.46,Debt Consolidation,Active
+295,95,4828.9,Home,Paid Off
+296,96,30469.2,Vacation,Paid Off
+297,96,28460.72,Medical,Paid Off
+298,97,46766.17,Medical,Paid Off
+299,97,28342.55,Vacation,Paid Off
+300,97,4278.15,Personal,Paid Off
+301,97,48829.13,Auto,Paid Off
+302,97,48542.76,Personal,Paid Off
+303,98,36340.26,Medical,Active
+304,98,43827.22,Emergency,Paid Off
+305,98,34793.96,Personal,Paid Off
+306,98,17655.58,Business,Paid Off
+307,98,33651.25,Education,Paid Off
+308,98,32640.57,Debt Consolidation,Active
+309,98,33205.99,Debt Consolidation,Active
+310,99,9421.76,Vacation,Paid Off
+311,99,2166.65,Home Improvement,Active
+312,99,20160.42,Emergency,Paid Off
+313,99,28264.78,Home,Paid Off
+314,99,9211.49,Vacation,Active
+315,99,6184.49,Home Improvement,Active
+316,100,47519.19,Personal,Paid Off
+317,100,10863.19,Green Energy,Paid Off
+318,100,41960.99,Medical,Paid Off
+319,100,47168.41,Personal,Paid Off
+320,100,5431.33,Personal,Active
+321,100,22413.5,Green Energy,Paid Off
+322,101,23730.18,Business,Paid Off
+323,101,32135.37,Debt Consolidation,Active
+324,101,36471.82,Vacation,Active
+325,101,31337.28,Debt Consolidation,Paid Off
+326,101,15867.33,Vacation,Paid Off
+327,101,1233.86,Emergency,Paid Off
+328,101,35677.06,Vacation,Paid Off
+329,102,4390.25,Emergency,Active
+330,102,5602.08,Debt Consolidation,Active
+331,102,33759.8,Personal,Paid Off
+332,102,4678.18,Green Energy,Active
+333,102,16249.81,Personal,Active
+334,103,28765.39,Home Improvement,Paid Off
+335,103,38709.03,Business,Paid Off
+336,103,11867.26,Debt Consolidation,Active
+337,103,29992.12,Medical,Active
+338,103,39784.7,Auto,Paid Off
+339,103,9566.13,Home Improvement,Paid Off
+340,104,47741.25,Medical,Paid Off
+341,104,33387.93,Home Improvement,Paid Off
+342,106,10104.07,Home Improvement,Paid Off
+343,106,37553.37,Vacation,Paid Off
+344,107,9812.54,Vacation,Active
+345,107,17542.47,Emergency,Active
+346,107,20569.2,Medical,Paid Off
+347,107,6422.6,Vacation,Active
+348,107,49851.18,Medical,Active
+349,107,20878.44,Vacation,Paid Off
+350,107,41573.92,Home Improvement,Paid Off
+351,108,6755.61,Auto,Paid Off
+352,108,15126.35,Home Improvement,Paid Off
+353,108,45115.93,Vacation,Active
+354,108,31945.25,Business,Paid Off
+355,108,34959.7,Debt Consolidation,Paid Off
+356,108,25650.77,Auto,Paid Off
+357,109,22046.31,Auto,Active
+358,109,13075.46,Debt Consolidation,Active
+359,109,15480.24,Medical,Paid Off
+360,109,42019.89,Home Improvement,Paid Off
+361,110,1046.4,Business,Active
+362,110,15019.3,Vacation,Paid Off
+363,110,5917.5,Medical,Paid Off
+364,110,20277.71,Medical,Paid Off
+365,110,26086.22,Debt Consolidation,Active
+366,111,43458.23,Home Improvement,Active
+367,112,5252.09,Personal,Paid Off
+368,112,43894.59,Debt Consolidation,Paid Off
+369,112,1650.24,Auto,Active
+370,112,9674.1,Auto,Paid Off
+371,112,46996.53,Education,Active
+372,113,36776.51,Emergency,Paid Off
+373,113,26604.35,Home,Paid Off
+374,113,43952.87,Auto,Paid Off
+375,113,40758.69,Personal,Active
+376,113,40799.69,Green Energy,Paid Off
+377,114,20800.66,Vacation,Active
+378,114,5485.33,Green Energy,Paid Off
+379,114,32382.53,Auto,Paid Off
+380,114,5743.28,Home,Active
+381,114,41200.72,Business,Active
+382,115,26161.76,Emergency,Paid Off
+383,115,21041.63,Home Improvement,Active
+384,115,1013.49,Home,Paid Off
+385,115,40484.16,Debt Consolidation,Paid Off
+386,116,21524.14,Vacation,Active
+387,116,12906.93,Green Energy,Paid Off
+388,116,37610.82,Education,Paid Off
+389,116,24207.11,Business,Active
+390,117,12511.46,Vacation,Active
+391,117,44721.87,Green Energy,Paid Off
+392,117,42605.7,Home Improvement,Active
+393,117,40404.44,Home,Paid Off
+394,118,49607.01,Personal,Active
+395,118,7953.1,Personal,Active
+396,118,6019.25,Emergency,Paid Off
+397,118,15815.89,Home,Paid Off
+398,118,30571.37,Auto,Paid Off
+399,119,12080.05,Vacation,Active
+400,119,29979.12,Personal,Active
+401,119,24634.48,Education,Active
+402,119,10522.9,Green Energy,Active
+403,119,29737.04,Home Improvement,Active
+404,120,36288.15,Green Energy,Paid Off
+405,120,14632.98,Business,Active
+406,120,3130.71,Business,Active
+407,120,29321.46,Education,Active
+408,121,12591.05,Auto,Active
+409,121,21180.35,Medical,Active
+410,122,34018.59,Medical,Active
+411,122,6918.76,Business,Active
+412,122,48513.14,Medical,Active
+413,123,19987.32,Home Improvement,Paid Off
+414,124,15366.59,Green Energy,Active
+415,125,11892.76,Business,Active
+416,125,15607.06,Education,Active
+417,125,27967.12,Green Energy,Paid Off
+418,125,14446.42,Vacation,Paid Off
+419,125,41029.77,Auto,Paid Off
+420,125,26575.51,Emergency,Active
+421,126,46259.47,Green Energy,Active
+422,126,11173.17,Vacation,Paid Off
+423,126,12926.7,Home,Paid Off
+424,126,33557.74,Home,Active
+425,126,38743.63,Green Energy,Paid Off
+426,126,31027.82,Education,Active
+427,127,38807.13,Personal,Active
+428,127,47409.32,Home,Paid Off
+429,127,30130.2,Education,Active
+430,127,34774.77,Auto,Paid Off
+431,128,45399.71,Green Energy,Active
+432,129,29283.89,Personal,Paid Off
+433,129,32503.38,Green Energy,Paid Off
+434,129,43253.37,Vacation,Active
+435,129,19039.01,Personal,Paid Off
+436,129,34979.28,Medical,Active
+437,130,24901.58,Business,Paid Off
+438,130,2761.52,Business,Active
+439,130,45197.45,Home Improvement,Paid Off
+440,130,26457.87,Personal,Active
+441,130,44864.55,Home,Paid Off
+442,131,1897.75,Debt Consolidation,Paid Off
+443,131,11142.6,Vacation,Active
+444,131,44877.43,Auto,Paid Off
+445,131,18930.58,Home,Active
+446,131,45799.66,Home Improvement,Active
+447,131,32926.82,Auto,Active
+448,132,8832.77,Home Improvement,Active
+449,132,31849.22,Business,Paid Off
+450,132,11836.34,Auto,Active
+451,132,18493.52,Vacation,Paid Off
+452,132,46630.59,Education,Active
+453,133,43470.46,Auto,Paid Off
+454,133,3217.15,Auto,Active
+455,133,7302.43,Auto,Paid Off
+456,133,43459.04,Green Energy,Active
+457,134,10746.68,Vacation,Active
+458,135,13978.16,Debt Consolidation,Active
+459,135,44435.26,Emergency,Active
+460,135,42305.63,Vacation,Active
+461,135,17166.14,Auto,Active
+462,135,49820.93,Home Improvement,Active
+463,136,37096.8,Home,Active
+464,136,36284.61,Auto,Paid Off
+465,136,32837.71,Debt Consolidation,Paid Off
+466,136,28218.65,Debt Consolidation,Paid Off
+467,136,39966.97,Green Energy,Active
+468,137,33079.06,Personal,Active
+469,138,8305.38,Home,Paid Off
+470,138,41927.33,Business,Active
+471,138,44079.6,Green Energy,Active
+472,140,22899.55,Auto,Active
+473,140,49220.82,Business,Paid Off
+474,140,8643.61,Auto,Active
+475,141,46028.92,Green Energy,Active
+476,141,17146.24,Education,Active
+477,142,7311.37,Medical,Active
+478,142,23571.66,Home,Active
+479,142,4378.46,Debt Consolidation,Paid Off
+480,142,30044.05,Green Energy,Active
+481,142,11222.99,Green Energy,Paid Off
+482,142,43670.75,Auto,Paid Off
+483,142,43861.75,Debt Consolidation,Paid Off
+484,143,12439.31,Auto,Paid Off
+485,143,40179.04,Personal,Paid Off
+486,143,36023.95,Auto,Paid Off
+487,143,42241.34,Home,Active
+488,143,14361.73,Education,Paid Off
+489,143,17391.31,Home,Paid Off
+490,143,17140.91,Medical,Paid Off
+491,144,11599.3,Emergency,Active
+492,144,2989.4,Home,Active
+493,145,6244.32,Medical,Paid Off
+494,146,47396.52,Auto,Active
+495,146,6443.93,Green Energy,Paid Off
+496,146,45976.45,Personal,Active
+497,146,19729.75,Vacation,Active
+498,146,1415.84,Home,Active
+499,146,22627.87,Education,Paid Off
+500,149,44232.8,Auto,Active
+501,149,1472.45,Home,Paid Off
+502,149,19257.89,Home,Paid Off
+503,149,22595.84,Emergency,Active
+504,149,14178.7,Vacation,Paid Off
+505,149,23819.09,Medical,Paid Off
+506,149,45652.64,Education,Active
+507,150,29258.72,Home Improvement,Active
+508,150,28554.93,Green Energy,Active
+509,150,27406.77,Vacation,Paid Off
+510,150,35681.94,Business,Paid Off
+511,150,19984.06,Green Energy,Paid Off
+512,150,23504.86,Debt Consolidation,Active
+513,151,15483.64,Debt Consolidation,Paid Off
+514,151,24985.03,Home,Active
+515,152,13884.79,Green Energy,Paid Off
+516,152,23111.05,Education,Paid Off
+517,152,31521.21,Green Energy,Paid Off
+518,152,9279.81,Home Improvement,Paid Off
+519,152,13382.77,Debt Consolidation,Active
+520,153,34144.14,Medical,Paid Off
+521,153,27826.66,Personal,Paid Off
+522,153,26622.79,Emergency,Active
+523,153,39784.68,Home Improvement,Paid Off
+524,155,35603.08,Medical,Active
+525,156,49446.01,Home,Paid Off
+526,156,6130.41,Vacation,Paid Off
+527,156,28541.07,Business,Active
+528,157,43294.77,Emergency,Active
+529,157,9698.47,Business,Paid Off
+530,157,38791.6,Auto,Active
+531,157,15838.6,Home,Active
+532,157,16629.2,Debt Consolidation,Active
+533,157,26418.25,Vacation,Paid Off
+534,157,38356.47,Business,Paid Off
+535,158,26236.2,Debt Consolidation,Paid Off
+536,158,24886.0,Emergency,Active
+537,160,13260.54,Emergency,Paid Off
+538,160,26237.11,Home Improvement,Active
+539,160,16437.88,Home,Active
+540,162,23114.07,Emergency,Paid Off
+541,162,48960.77,Home,Paid Off
+542,163,42734.73,Education,Paid Off
+543,163,41860.6,Home Improvement,Paid Off
+544,163,11438.48,Education,Paid Off
+545,163,7317.07,Business,Active
+546,163,3702.57,Vacation,Paid Off
+547,164,35107.31,Green Energy,Paid Off
+548,164,32924.22,Business,Active
+549,164,38528.52,Education,Paid Off
+550,164,26986.46,Home,Paid Off
+551,164,18399.48,Green Energy,Paid Off
+552,164,35389.98,Home Improvement,Active
+553,164,8123.17,Education,Active
+554,165,3880.2,Home,Paid Off
+555,166,27867.83,Personal,Active
+556,166,48635.32,Business,Active
+557,166,49549.32,Medical,Paid Off
+558,166,24484.32,Business,Active
+559,167,25280.29,Education,Active
+560,168,23397.01,Emergency,Active
+561,168,29502.3,Business,Paid Off
+562,168,26026.94,Auto,Paid Off
+563,168,44197.0,Auto,Active
+564,170,35273.57,Medical,Paid Off
+565,170,18417.59,Medical,Paid Off
+566,170,34367.08,Vacation,Paid Off
+567,171,31311.74,Vacation,Active
+568,171,45902.49,Home Improvement,Active
+569,171,15925.02,Medical,Active
+570,171,6242.0,Green Energy,Active
+571,172,20978.92,Personal,Active
+572,172,10367.88,Green Energy,Paid Off
+573,172,41765.93,Debt Consolidation,Paid Off
+574,173,33308.28,Auto,Active
+575,173,47916.81,Vacation,Active
+576,173,17405.83,Personal,Active
+577,173,36588.03,Green Energy,Paid Off
+578,173,29743.41,Debt Consolidation,Paid Off
+579,173,27865.06,Personal,Paid Off
+580,174,27728.58,Auto,Active
+581,174,48030.2,Auto,Active
+582,174,21323.06,Home Improvement,Active
+583,174,4915.45,Green Energy,Paid Off
+584,175,3430.68,Emergency,Active
+585,175,13166.89,Vacation,Paid Off
+586,175,35303.87,Education,Paid Off
+587,175,22434.28,Vacation,Paid Off
+588,175,6723.05,Medical,Paid Off
+589,175,43125.85,Personal,Active
+590,176,36631.39,Vacation,Active
+591,176,2643.85,Auto,Paid Off
+592,176,24847.86,Education,Paid Off
+593,176,34577.57,Business,Paid Off
+594,176,21909.77,Green Energy,Active
+595,176,42115.33,Home Improvement,Paid Off
+596,177,37838.94,Home Improvement,Paid Off
+597,177,49019.71,Business,Paid Off
+598,177,34247.2,Business,Active
+599,177,2296.88,Vacation,Paid Off
+600,178,12428.78,Auto,Paid Off
+601,178,12548.33,Business,Active
+602,178,31239.27,Auto,Paid Off
+603,178,28987.58,Home Improvement,Paid Off
+604,178,34602.03,Home,Active
+605,178,42725.76,Debt Consolidation,Paid Off
+606,179,44356.19,Business,Paid Off
+607,179,20228.15,Green Energy,Paid Off
+608,179,17724.0,Personal,Active
+609,179,43174.01,Green Energy,Paid Off
+610,179,18286.97,Personal,Active
+611,180,13390.48,Vacation,Paid Off
+612,180,34112.38,Personal,Paid Off
+613,181,1617.62,Auto,Active
+614,181,7000.54,Medical,Paid Off
+615,181,21846.39,Personal,Paid Off
+616,182,4311.2,Debt Consolidation,Active
+617,183,30033.66,Medical,Paid Off
+618,183,3689.08,Vacation,Active
+619,184,7919.03,Medical,Paid Off
+620,184,44863.36,Business,Active
+621,184,17573.53,Business,Paid Off
+622,184,5579.79,Medical,Paid Off
+623,184,8956.35,Vacation,Paid Off
+624,184,34155.54,Auto,Active
+625,184,17045.11,Green Energy,Paid Off
+626,185,26100.08,Personal,Active
+627,185,45919.24,Medical,Paid Off
+628,185,34061.26,Vacation,Paid Off
+629,186,47438.69,Education,Active
+630,186,15269.42,Personal,Paid Off
+631,186,26395.38,Personal,Paid Off
+632,186,5292.43,Emergency,Active
+633,186,38119.18,Education,Active
+634,186,17913.88,Debt Consolidation,Active
+635,186,41472.03,Debt Consolidation,Paid Off
+636,187,45638.4,Vacation,Active
+637,187,29495.82,Education,Active
+638,187,36230.64,Education,Paid Off
+639,187,4271.32,Vacation,Active
+640,187,46910.25,Debt Consolidation,Active
+641,188,15490.21,Auto,Paid Off
+642,189,15282.56,Auto,Paid Off
+643,189,7652.47,Home,Active
+644,189,7725.8,Home,Paid Off
+645,190,21750.28,Medical,Active
+646,190,26773.96,Business,Active
+647,190,45227.54,Debt Consolidation,Active
+648,190,33938.2,Personal,Active
+649,190,8874.09,Emergency,Paid Off
+650,190,43892.97,Auto,Paid Off
+651,192,40672.94,Medical,Paid Off
+652,192,42857.0,Green Energy,Active
+653,193,13664.32,Emergency,Active
+654,193,2374.47,Home,Paid Off
+655,193,15808.07,Education,Paid Off
+656,193,4362.63,Debt Consolidation,Active
+657,193,8922.25,Education,Active
+658,193,10002.48,Home Improvement,Paid Off
+659,194,48712.92,Vacation,Paid Off
+660,196,9386.67,Personal,Active
+661,197,31041.21,Vacation,Paid Off
+662,197,39868.57,Vacation,Active
+663,197,44584.87,Home Improvement,Paid Off
+664,197,24807.49,Business,Paid Off
+665,197,19705.9,Education,Paid Off
+666,197,22084.75,Education,Active
+667,197,49751.36,Medical,Paid Off
+668,198,9216.43,Green Energy,Paid Off
+669,198,28647.96,Vacation,Paid Off
+670,198,42410.11,Debt Consolidation,Active
+671,198,26290.66,Medical,Active
+672,199,46713.46,Vacation,Paid Off
+673,199,21643.75,Medical,Active
+674,199,43585.01,Home Improvement,Active
+675,199,41774.08,Personal,Paid Off
+676,199,6871.08,Personal,Active
+677,199,22984.77,Home Improvement,Active
+678,200,10786.42,Medical,Active
+679,200,36374.4,Home Improvement,Paid Off
+680,200,26482.23,Medical,Paid Off
+681,200,16452.31,Debt Consolidation,Active
+682,200,11806.64,Home,Paid Off
+683,200,25397.9,Home,Paid Off
+684,201,16068.33,Green Energy,Paid Off
+685,201,21876.93,Business,Active
+686,202,18632.23,Auto,Active
+687,202,17227.18,Green Energy,Active
+688,202,10915.98,Green Energy,Paid Off
+689,202,5265.93,Home Improvement,Active
+690,202,19884.26,Debt Consolidation,Active
+691,203,39332.94,Home,Active
+692,203,16066.33,Debt Consolidation,Paid Off
+693,203,20923.13,Education,Active
+694,203,24480.33,Debt Consolidation,Active
+695,203,6718.59,Business,Paid Off
+696,203,28515.85,Home Improvement,Active
+697,204,29097.55,Green Energy,Active
+698,204,33547.51,Emergency,Active
+699,204,38146.73,Business,Active
+700,204,31170.5,Emergency,Active
+701,204,11612.44,Home Improvement,Active
+702,204,5377.55,Green Energy,Paid Off
+703,205,33792.52,Home,Paid Off
+704,206,24366.56,Home Improvement,Active
+705,206,38313.98,Medical,Active
+706,206,26558.41,Personal,Paid Off
+707,206,5261.94,Home Improvement,Active
+708,206,46601.21,Home,Paid Off
+709,207,30716.33,Debt Consolidation,Active
+710,207,29850.63,Home,Active
+711,207,23385.64,Debt Consolidation,Paid Off
+712,207,21748.83,Green Energy,Paid Off
+713,207,9444.48,Vacation,Active
+714,207,9228.45,Home,Paid Off
+715,207,47988.97,Auto,Active
+716,208,9720.43,Green Energy,Active
+717,208,48149.49,Vacation,Paid Off
+718,209,32855.68,Debt Consolidation,Paid Off
+719,210,48370.21,Auto,Paid Off
+720,210,14257.21,Vacation,Paid Off
+721,210,17048.11,Vacation,Active
+722,210,5721.25,Debt Consolidation,Paid Off
+723,210,21885.61,Green Energy,Paid Off
+724,210,35842.18,Personal,Active
+725,210,10291.33,Green Energy,Paid Off
+726,214,42530.96,Education,Paid Off
+727,214,32503.81,Auto,Active
+728,214,40533.29,Business,Paid Off
+729,215,4915.4,Green Energy,Paid Off
+730,215,47609.16,Green Energy,Active
+731,215,2575.84,Auto,Paid Off
+732,215,49476.94,Education,Active
+733,215,49812.8,Emergency,Active
+734,217,7162.28,Home,Paid Off
+735,217,37773.32,Green Energy,Paid Off
+736,217,40216.12,Debt Consolidation,Active
+737,217,46401.01,Education,Paid Off
+738,217,15098.61,Vacation,Active
+739,217,2494.18,Vacation,Paid Off
+740,218,48687.12,Home Improvement,Paid Off
+741,218,10560.06,Personal,Paid Off
+742,219,13410.02,Green Energy,Active
+743,220,39711.1,Medical,Paid Off
+744,220,20702.67,Auto,Active
+745,221,21626.56,Business,Active
+746,221,3799.08,Debt Consolidation,Paid Off
+747,222,10860.03,Home,Paid Off
+748,222,43585.21,Education,Active
+749,222,44040.34,Green Energy,Active
+750,222,2753.04,Home Improvement,Active
+751,222,42604.26,Personal,Paid Off
+752,223,4467.75,Home,Active
+753,223,46082.61,Auto,Paid Off
+754,224,6962.46,Green Energy,Active
+755,224,12708.75,Home,Active
+756,224,16485.16,Emergency,Paid Off
+757,224,33984.78,Vacation,Paid Off
+758,224,40188.98,Auto,Paid Off
+759,225,25404.89,Debt Consolidation,Active
+760,225,41816.64,Vacation,Active
+761,226,16525.68,Medical,Paid Off
+762,226,5132.72,Emergency,Paid Off
+763,227,45647.14,Debt Consolidation,Paid Off
+764,227,16070.48,Home Improvement,Paid Off
+765,227,14085.2,Auto,Active
+766,227,6497.62,Debt Consolidation,Active
+767,228,27564.96,Personal,Active
+768,228,41262.24,Medical,Paid Off
+769,229,3105.58,Green Energy,Paid Off
+770,229,3889.58,Business,Paid Off
+771,230,49219.27,Auto,Paid Off
+772,231,22746.46,Emergency,Active
+773,232,18401.28,Auto,Paid Off
+774,232,29787.16,Medical,Paid Off
+775,232,15510.42,Emergency,Active
+776,232,40774.07,Emergency,Active
+777,232,25253.95,Green Energy,Active
+778,233,6427.94,Home,Paid Off
+779,233,37816.0,Education,Active
+780,233,24670.97,Personal,Paid Off
+781,233,24212.3,Education,Active
+782,233,15824.52,Medical,Paid Off
+783,233,19633.0,Business,Paid Off
+784,233,47909.4,Green Energy,Paid Off
+785,234,5779.53,Emergency,Paid Off
+786,234,43407.84,Business,Paid Off
+787,234,1770.41,Emergency,Active
+788,235,24528.92,Medical,Active
+789,235,15663.9,Emergency,Paid Off
+790,236,25365.97,Home Improvement,Paid Off
+791,236,29462.6,Home,Paid Off
+792,236,31759.28,Home,Active
+793,236,2628.42,Medical,Active
+794,236,48210.82,Emergency,Active
+795,237,41826.54,Vacation,Active
+796,237,34799.11,Debt Consolidation,Active
+797,237,25953.02,Personal,Active
+798,238,10032.9,Green Energy,Paid Off
+799,238,20361.75,Home,Active
+800,238,15806.4,Vacation,Active
+801,238,40065.65,Vacation,Active
+802,239,32766.5,Green Energy,Active
+803,240,42660.9,Medical,Paid Off
+804,241,27897.76,Home,Active
+805,241,30383.81,Vacation,Paid Off
+806,241,4769.43,Business,Active
+807,241,28205.56,Vacation,Paid Off
+808,241,14231.5,Personal,Active
+809,241,8059.83,Personal,Paid Off
+810,241,4842.78,Green Energy,Paid Off
+811,242,42056.57,Auto,Paid Off
+812,242,30864.2,Home Improvement,Active
+813,242,26891.06,Home,Active
+814,243,18093.93,Home Improvement,Active
+815,244,13734.23,Emergency,Active
+816,245,39938.0,Home,Paid Off
+817,245,1181.7,Business,Active
+818,245,24788.5,Home Improvement,Active
+819,245,49458.59,Business,Paid Off
+820,245,25167.48,Green Energy,Paid Off
+821,245,4271.7,Auto,Active
+822,246,8048.98,Emergency,Active
+823,246,34761.88,Vacation,Active
+824,246,32371.68,Medical,Active
+825,247,45306.44,Auto,Active
+826,247,15646.95,Green Energy,Paid Off
+827,248,49231.29,Education,Paid Off
+828,248,25049.9,Personal,Paid Off
+829,248,16233.71,Vacation,Paid Off
+830,248,44270.99,Home,Paid Off
+831,248,9470.35,Education,Paid Off
+832,248,5733.64,Debt Consolidation,Paid Off
+833,249,49850.1,Home Improvement,Active
+834,249,4212.84,Home Improvement,Paid Off
+835,249,27373.93,Business,Active
+836,249,27842.91,Auto,Active
+837,249,48826.69,Education,Active
+838,249,2005.77,Education,Active
+839,251,4115.61,Auto,Paid Off
+840,252,8538.36,Emergency,Paid Off
+841,252,41843.27,Home Improvement,Paid Off
+842,252,4357.32,Education,Active
+843,253,32242.9,Personal,Active
+844,253,38330.19,Medical,Paid Off
+845,253,15114.29,Debt Consolidation,Paid Off
+846,253,20536.97,Debt Consolidation,Paid Off
+847,253,22969.99,Vacation,Paid Off
+848,253,11039.85,Home Improvement,Paid Off
+849,254,17902.33,Debt Consolidation,Paid Off
+850,254,27195.51,Business,Active
+851,254,30354.18,Medical,Paid Off
+852,255,35704.96,Personal,Active
+853,255,11399.99,Auto,Paid Off
+854,257,48593.13,Business,Paid Off
+855,257,24345.91,Education,Paid Off
+856,257,39236.89,Home Improvement,Paid Off
+857,257,49116.09,Education,Active
+858,257,11494.91,Emergency,Active
+859,258,6593.88,Auto,Paid Off
+860,258,36354.07,Business,Active
+861,258,30167.12,Medical,Paid Off
+862,258,44705.76,Personal,Paid Off
+863,258,28096.5,Business,Active
+864,258,10145.16,Business,Paid Off
+865,258,28475.82,Home,Paid Off
+866,259,7494.72,Emergency,Paid Off
+867,259,32275.7,Business,Active
+868,259,12709.39,Home Improvement,Active
+869,259,13145.41,Vacation,Active
+870,259,9739.46,Auto,Active
+871,259,10141.71,Education,Active
+872,259,36227.46,Business,Paid Off
+873,260,48932.76,Debt Consolidation,Active
+874,260,8191.39,Home,Active
+875,260,5655.98,Personal,Paid Off
+876,260,11338.15,Vacation,Active
+877,261,23862.68,Medical,Paid Off
+878,261,14005.75,Education,Paid Off
+879,261,32626.08,Green Energy,Paid Off
+880,261,10051.66,Auto,Paid Off
+881,261,30399.07,Education,Active
+882,262,49495.81,Education,Paid Off
+883,263,37004.64,Green Energy,Paid Off
+884,263,32847.85,Education,Active
+885,263,40718.18,Debt Consolidation,Active
+886,263,49798.9,Medical,Active
+887,263,17977.22,Personal,Active
+888,263,13329.24,Home,Active
+889,263,2481.75,Green Energy,Active
+890,264,2778.06,Business,Paid Off
+891,264,30835.16,Emergency,Paid Off
+892,265,22387.22,Medical,Paid Off
+893,265,23380.87,Medical,Paid Off
+894,266,24612.39,Personal,Active
+895,266,1578.62,Debt Consolidation,Active
+896,266,48178.31,Home,Active
+897,267,33760.77,Home,Active
+898,267,46994.62,Medical,Active
+899,267,49047.27,Business,Paid Off
+900,267,16552.96,Auto,Active
+901,267,43075.53,Education,Active
+902,268,13092.93,Emergency,Active
+903,268,38797.5,Emergency,Active
+904,269,13434.95,Auto,Paid Off
+905,272,39710.58,Medical,Active
+906,272,18201.46,Debt Consolidation,Active
+907,273,26101.21,Medical,Paid Off
+908,273,33474.69,Green Energy,Active
+909,273,20541.03,Emergency,Paid Off
+910,273,11294.41,Home,Active
+911,273,19324.06,Green Energy,Paid Off
+912,273,27265.53,Auto,Active
+913,274,46596.33,Home Improvement,Paid Off
+914,274,3721.49,Debt Consolidation,Paid Off
+915,274,23242.11,Vacation,Paid Off
+916,274,40816.71,Education,Active
+917,274,22739.04,Green Energy,Paid Off
+918,275,47655.55,Vacation,Paid Off
+919,275,49139.86,Debt Consolidation,Active
+920,275,47866.03,Home Improvement,Active
+921,275,36863.54,Education,Paid Off
+922,276,11845.78,Personal,Paid Off
+923,276,2937.49,Auto,Paid Off
+924,276,38351.82,Vacation,Active
+925,278,12490.77,Education,Active
+926,278,4955.44,Home Improvement,Active
+927,278,49810.41,Emergency,Active
+928,278,48505.11,Business,Paid Off
+929,278,8602.86,Auto,Paid Off
+930,279,16028.07,Business,Active
+931,279,32405.75,Debt Consolidation,Paid Off
+932,279,35589.88,Debt Consolidation,Active
+933,279,23047.2,Emergency,Paid Off
+934,279,14848.66,Education,Paid Off
+935,280,11770.57,Home Improvement,Active
+936,280,2924.18,Business,Paid Off
+937,280,34481.58,Emergency,Paid Off
+938,280,8205.87,Vacation,Paid Off
+939,280,20628.78,Education,Paid Off
+940,281,19104.46,Personal,Paid Off
+941,281,31628.48,Emergency,Paid Off
+942,281,35445.93,Medical,Paid Off
+943,281,25058.07,Home,Active
+944,281,9077.42,Education,Active
+945,281,10522.14,Emergency,Active
+946,282,44250.97,Business,Paid Off
+947,283,7932.63,Debt Consolidation,Paid Off
+948,283,18509.15,Home Improvement,Paid Off
+949,284,24681.82,Home,Active
+950,284,23400.92,Vacation,Paid Off
+951,284,40530.84,Auto,Active
+952,284,37572.55,Auto,Active
+953,284,25446.1,Education,Active
+954,284,25810.93,Home,Active
+955,285,45712.13,Green Energy,Active
+956,285,5412.67,Auto,Active
+957,285,19448.03,Home,Paid Off
+958,286,30600.66,Auto,Paid Off
+959,286,11613.03,Auto,Active
+960,286,11755.87,Vacation,Paid Off
+961,286,15142.87,Medical,Active
+962,287,29474.79,Medical,Active
+963,287,25959.1,Auto,Paid Off
+964,287,16879.91,Debt Consolidation,Paid Off
+965,288,4672.17,Emergency,Active
+966,288,4440.56,Home Improvement,Active
+967,288,15740.31,Emergency,Paid Off
+968,288,1427.88,Green Energy,Active
+969,289,10735.62,Emergency,Paid Off
+970,289,42114.34,Business,Paid Off
+971,289,45467.51,Green Energy,Paid Off
+972,289,49696.44,Home,Paid Off
+973,289,8133.23,Auto,Paid Off
+974,289,38480.4,Vacation,Paid Off
+975,289,40081.55,Auto,Paid Off
+976,290,5556.72,Home,Active
+977,290,41701.07,Home,Active
+978,292,18825.97,Personal,Paid Off
+979,292,27887.26,Vacation,Active
+980,292,1476.09,Business,Active
+981,293,1352.29,Personal,Active
+982,293,12385.11,Medical,Paid Off
+983,294,4234.82,Home,Paid Off
+984,294,34851.23,Green Energy,Active
+985,294,35844.43,Medical,Paid Off
+986,294,49113.41,Vacation,Active
+987,294,42651.65,Personal,Active
+988,296,13045.73,Vacation,Active
+989,296,2079.6,Auto,Active
+990,296,41145.21,Medical,Active
+991,296,41959.9,Emergency,Active
+992,296,3682.48,Home,Active
+993,297,7283.52,Auto,Paid Off
+994,297,49412.07,Emergency,Paid Off
+995,297,7319.65,Vacation,Paid Off
+996,297,32009.79,Auto,Paid Off
+997,297,47901.74,Medical,Active
+998,297,29992.75,Vacation,Active
+999,298,17735.52,Personal,Paid Off
+1000,298,37471.11,Auto,Paid Off
+1001,298,17260.34,Medical,Active
+1002,298,6373.21,Vacation,Paid Off
+1003,298,5877.25,Green Energy,Active
+1004,298,21132.55,Vacation,Active
+1005,299,33124.52,Personal,Paid Off
+1006,299,15639.26,Personal,Paid Off
+1007,299,45635.07,Home,Active
+1008,299,6019.03,Green Energy,Paid Off
+1009,299,18223.62,Home,Paid Off
+1010,299,27065.45,Medical,Paid Off
+1011,299,25434.19,Emergency,Paid Off
+1012,300,25891.42,Vacation,Active
+1013,300,20956.23,Education,Paid Off
+1014,300,8469.9,Emergency,Active
+1015,300,39094.85,Home Improvement,Active
+1016,300,6310.69,Home,Active
+1017,300,7873.09,Home Improvement,Active
+1018,300,22741.19,Business,Paid Off
+1019,301,5116.46,Emergency,Paid Off
+1020,301,44920.33,Auto,Active
+1021,301,29984.53,Vacation,Active
+1022,302,15282.46,Medical,Active
+1023,303,8878.72,Auto,Paid Off
+1024,303,49373.99,Emergency,Active
+1025,304,31873.87,Medical,Active
+1026,304,30503.52,Personal,Paid Off
+1027,304,49951.76,Vacation,Paid Off
+1028,304,15786.94,Auto,Paid Off
+1029,305,38756.72,Business,Active
+1030,306,42046.13,Green Energy,Active
+1031,306,26201.09,Home Improvement,Paid Off
+1032,306,35473.86,Home Improvement,Paid Off
+1033,306,37287.04,Home,Paid Off
+1034,306,21928.43,Auto,Paid Off
+1035,307,13957.3,Auto,Paid Off
+1036,307,4503.89,Green Energy,Active
+1037,307,39398.8,Emergency,Paid Off
+1038,310,8832.97,Emergency,Paid Off
+1039,311,27681.42,Green Energy,Paid Off
+1040,311,16750.2,Home,Paid Off
+1041,311,6492.64,Vacation,Active
+1042,311,3971.74,Business,Paid Off
+1043,311,48035.91,Vacation,Paid Off
+1044,311,3334.11,Medical,Paid Off
+1045,311,27707.64,Business,Active
+1046,312,42050.35,Auto,Active
+1047,312,44859.85,Medical,Paid Off
+1048,312,38575.98,Business,Paid Off
+1049,313,42007.73,Emergency,Active
+1050,313,12402.77,Education,Paid Off
+1051,315,49894.16,Medical,Active
+1052,315,22622.86,Home,Paid Off
+1053,315,28812.59,Emergency,Paid Off
+1054,316,39484.48,Home,Active
+1055,316,37822.68,Debt Consolidation,Active
+1056,316,10143.27,Auto,Paid Off
+1057,316,23402.18,Education,Active
+1058,320,12635.07,Personal,Paid Off
+1059,320,30039.99,Business,Paid Off
+1060,321,20541.64,Education,Active
+1061,321,33737.19,Business,Paid Off
+1062,321,7874.84,Personal,Active
+1063,321,2795.27,Vacation,Active
+1064,322,17280.37,Home,Paid Off
+1065,322,28164.94,Education,Paid Off
+1066,322,9513.28,Emergency,Active
+1067,322,46991.48,Medical,Active
+1068,323,26251.72,Home Improvement,Paid Off
+1069,323,43211.28,Business,Paid Off
+1070,323,29464.94,Medical,Active
+1071,323,46571.48,Business,Active
+1072,323,45270.35,Vacation,Active
+1073,323,47637.46,Green Energy,Paid Off
+1074,324,23914.87,Vacation,Paid Off
+1075,324,18240.92,Green Energy,Paid Off
+1076,324,6035.29,Auto,Paid Off
+1077,324,23709.86,Auto,Active
+1078,324,45575.86,Green Energy,Paid Off
+1079,324,3685.84,Education,Paid Off
+1080,324,9728.5,Vacation,Paid Off
+1081,325,29460.29,Vacation,Active
+1082,325,40895.62,Education,Active
+1083,325,18506.33,Auto,Paid Off
+1084,325,40166.3,Emergency,Active
+1085,325,22300.87,Business,Active
+1086,325,21009.62,Debt Consolidation,Paid Off
+1087,327,19446.69,Home Improvement,Paid Off
+1088,327,17292.3,Personal,Active
+1089,327,11339.11,Green Energy,Paid Off
+1090,327,14999.51,Emergency,Paid Off
+1091,327,22758.61,Debt Consolidation,Active
+1092,328,2328.79,Home,Paid Off
+1093,328,21137.5,Home Improvement,Active
+1094,328,47246.22,Business,Paid Off
+1095,328,26634.77,Personal,Paid Off
+1096,328,8018.87,Medical,Active
+1097,329,38863.86,Business,Active
+1098,329,47510.48,Home,Active
+1099,329,27360.93,Education,Paid Off
+1100,329,45199.51,Green Energy,Active
+1101,329,7483.25,Emergency,Active
+1102,329,43795.26,Emergency,Active
+1103,329,47574.68,Auto,Active
+1104,330,15555.01,Home,Active
+1105,330,44949.19,Medical,Paid Off
+1106,330,5252.37,Emergency,Paid Off
+1107,331,27970.0,Medical,Paid Off
+1108,331,35919.33,Auto,Paid Off
+1109,331,23014.3,Personal,Active
+1110,331,40436.51,Personal,Active
+1111,331,14786.24,Education,Active
+1112,332,33980.85,Business,Paid Off
+1113,332,28461.9,Debt Consolidation,Paid Off
+1114,332,28844.49,Home Improvement,Active
+1115,332,29325.56,Auto,Paid Off
+1116,332,12926.27,Emergency,Active
+1117,333,33555.09,Emergency,Active
+1118,333,39668.29,Emergency,Paid Off
+1119,333,7635.8,Business,Active
+1120,334,23258.36,Home,Paid Off
+1121,334,1508.49,Education,Paid Off
+1122,334,41883.22,Auto,Paid Off
+1123,334,22301.4,Home,Paid Off
+1124,335,10160.77,Education,Active
+1125,335,25941.68,Personal,Active
+1126,335,7972.01,Emergency,Active
+1127,335,23482.66,Emergency,Paid Off
+1128,335,3124.06,Medical,Active
+1129,335,45410.51,Debt Consolidation,Active
+1130,335,18678.73,Emergency,Paid Off
+1131,336,14025.67,Vacation,Paid Off
+1132,336,44211.8,Debt Consolidation,Active
+1133,336,20208.61,Personal,Paid Off
+1134,336,8573.0,Vacation,Paid Off
+1135,336,49149.09,Debt Consolidation,Paid Off
+1136,337,26148.72,Personal,Paid Off
+1137,337,36681.11,Auto,Active
+1138,338,5930.73,Business,Active
+1139,338,6321.8,Auto,Paid Off
+1140,339,31468.61,Vacation,Active
+1141,339,20855.79,Education,Paid Off
+1142,339,49912.23,Vacation,Active
+1143,340,22806.62,Home,Paid Off
+1144,340,6589.98,Green Energy,Active
+1145,340,5814.97,Vacation,Active
+1146,340,48729.61,Emergency,Paid Off
+1147,340,29887.59,Vacation,Paid Off
+1148,340,26731.27,Debt Consolidation,Active
+1149,340,28226.02,Education,Paid Off
+1150,341,5979.86,Auto,Active
+1151,341,20424.62,Debt Consolidation,Paid Off
+1152,341,7119.49,Vacation,Active
+1153,341,37173.78,Home Improvement,Paid Off
+1154,341,5410.5,Home Improvement,Active
+1155,342,7855.59,Home Improvement,Paid Off
+1156,342,11784.12,Personal,Paid Off
+1157,342,15056.01,Debt Consolidation,Active
+1158,343,47429.74,Education,Paid Off
+1159,343,24271.35,Home Improvement,Paid Off
+1160,343,7397.4,Home,Active
+1161,343,34784.41,Home Improvement,Active
+1162,344,32027.43,Emergency,Paid Off
+1163,344,24013.1,Business,Active
+1164,344,26488.15,Home Improvement,Paid Off
+1165,344,1731.32,Debt Consolidation,Active
+1166,345,21654.58,Auto,Paid Off
+1167,345,36351.24,Green Energy,Active
+1168,345,37443.22,Auto,Paid Off
+1169,345,26280.67,Home,Active
+1170,346,1278.6,Emergency,Active
+1171,346,15378.2,Business,Active
+1172,346,31372.76,Education,Active
+1173,346,40823.52,Home,Active
+1174,346,38664.55,Debt Consolidation,Active
+1175,346,39999.23,Home Improvement,Active
+1176,347,31676.38,Personal,Paid Off
+1177,347,6078.32,Home,Paid Off
+1178,347,41734.38,Business,Active
+1179,347,34356.24,Home,Active
+1180,347,3774.84,Debt Consolidation,Active
+1181,348,15571.9,Personal,Active
+1182,348,17822.11,Home,Active
+1183,348,44715.99,Business,Paid Off
+1184,348,19072.92,Auto,Paid Off
+1185,348,44027.26,Education,Paid Off
+1186,349,46154.92,Debt Consolidation,Active
+1187,349,21541.92,Green Energy,Active
+1188,349,35352.4,Debt Consolidation,Paid Off
+1189,349,38134.05,Education,Active
+1190,349,30345.56,Personal,Active
+1191,349,26943.86,Auto,Paid Off
+1192,351,3265.36,Business,Active
+1193,351,3640.1,Green Energy,Paid Off
+1194,351,26678.0,Home Improvement,Paid Off
+1195,351,15069.29,Home Improvement,Active
+1196,351,48897.42,Personal,Active
+1197,351,2519.0,Green Energy,Active
+1198,351,33583.93,Medical,Paid Off
+1199,352,20362.59,Business,Paid Off
+1200,352,3570.19,Emergency,Paid Off
+1201,352,46429.11,Personal,Paid Off
+1202,354,15988.08,Medical,Active
+1203,354,6947.28,Auto,Paid Off
+1204,354,13945.22,Emergency,Active
+1205,354,6575.33,Business,Active
+1206,355,27590.8,Debt Consolidation,Active
+1207,355,26243.49,Business,Paid Off
+1208,356,28791.22,Auto,Paid Off
+1209,356,45167.29,Medical,Active
+1210,356,15982.38,Business,Active
+1211,356,34707.34,Emergency,Active
+1212,356,15985.52,Emergency,Paid Off
+1213,357,46874.36,Emergency,Active
+1214,357,7619.86,Business,Active
+1215,357,8832.23,Vacation,Paid Off
+1216,357,7923.25,Personal,Paid Off
+1217,357,37044.27,Home,Active
+1218,357,5117.13,Business,Paid Off
+1219,357,22126.32,Home Improvement,Paid Off
+1220,358,29346.36,Education,Active
+1221,358,35015.56,Medical,Active
+1222,358,41018.11,Home,Active
+1223,359,24059.64,Home,Paid Off
+1224,359,7169.28,Business,Paid Off
+1225,359,8034.21,Debt Consolidation,Paid Off
+1226,360,35203.27,Auto,Active
+1227,360,49890.08,Home Improvement,Paid Off
+1228,360,14472.04,Vacation,Active
+1229,360,9037.88,Personal,Paid Off
+1230,360,46996.84,Home,Paid Off
+1231,361,43001.47,Auto,Active
+1232,361,16313.63,Vacation,Active
+1233,361,4090.65,Home Improvement,Paid Off
+1234,362,41694.94,Vacation,Active
+1235,362,6492.72,Education,Paid Off
+1236,362,20773.37,Medical,Paid Off
+1237,362,4062.2,Green Energy,Active
+1238,362,9885.07,Personal,Paid Off
+1239,363,49528.65,Home,Active
+1240,363,9666.77,Debt Consolidation,Active
+1241,365,49357.68,Business,Active
+1242,365,19027.68,Business,Active
+1243,365,4485.07,Vacation,Paid Off
+1244,365,38485.6,Education,Active
+1245,365,22069.18,Home Improvement,Active
+1246,365,35231.85,Green Energy,Paid Off
+1247,365,46222.17,Emergency,Paid Off
+1248,366,13155.88,Home Improvement,Paid Off
+1249,366,10058.57,Medical,Paid Off
+1250,366,24522.28,Education,Paid Off
+1251,367,16636.44,Personal,Paid Off
+1252,368,25033.22,Personal,Paid Off
+1253,368,25967.21,Green Energy,Paid Off
+1254,368,5296.65,Auto,Active
+1255,368,38151.52,Personal,Paid Off
+1256,368,14978.34,Vacation,Paid Off
+1257,368,22937.48,Education,Active
+1258,369,38691.39,Auto,Active
+1259,369,49032.09,Home,Paid Off
+1260,369,1839.65,Personal,Active
+1261,370,48569.57,Green Energy,Active
+1262,371,13568.02,Debt Consolidation,Active
+1263,371,36129.3,Home,Active
+1264,372,35571.21,Business,Paid Off
+1265,372,36945.56,Medical,Active
+1266,372,12218.03,Home Improvement,Active
+1267,372,38067.64,Education,Active
+1268,373,28149.57,Business,Active
+1269,373,9255.37,Home Improvement,Paid Off
+1270,373,33888.6,Education,Active
+1271,373,34603.32,Education,Active
+1272,374,13238.07,Green Energy,Active
+1273,374,6934.86,Auto,Active
+1274,377,10967.11,Home Improvement,Paid Off
+1275,377,41713.12,Medical,Paid Off
+1276,377,33902.61,Business,Paid Off
+1277,377,37201.4,Auto,Active
+1278,377,27468.6,Green Energy,Paid Off
+1279,377,27420.83,Personal,Paid Off
+1280,378,28609.86,Emergency,Active
+1281,378,14489.66,Education,Active
+1282,378,41609.29,Auto,Paid Off
+1283,378,20425.47,Medical,Active
+1284,379,49892.43,Personal,Paid Off
+1285,379,37783.31,Vacation,Paid Off
+1286,379,21190.73,Personal,Paid Off
+1287,379,2351.21,Education,Paid Off
+1288,379,5740.89,Home Improvement,Paid Off
+1289,379,47753.65,Auto,Active
+1290,379,39463.66,Medical,Paid Off
+1291,380,24175.33,Home,Paid Off
+1292,380,2181.77,Education,Paid Off
+1293,380,14790.85,Business,Paid Off
+1294,380,34664.93,Medical,Active
+1295,380,40515.41,Home Improvement,Paid Off
+1296,380,13639.4,Medical,Active
+1297,380,3693.37,Debt Consolidation,Active
+1298,381,49103.77,Emergency,Paid Off
+1299,381,28572.24,Emergency,Paid Off
+1300,381,35638.82,Home Improvement,Paid Off
+1301,381,46743.41,Business,Active
+1302,381,4373.81,Vacation,Active
+1303,381,35270.12,Medical,Paid Off
+1304,381,10838.92,Vacation,Paid Off
+1305,382,48423.37,Auto,Active
+1306,382,32454.89,Green Energy,Active
+1307,382,20408.83,Debt Consolidation,Paid Off
+1308,382,30540.21,Green Energy,Paid Off
+1309,382,2194.07,Personal,Active
+1310,382,12626.61,Emergency,Active
+1311,384,25482.56,Emergency,Paid Off
+1312,384,7368.37,Auto,Paid Off
+1313,385,34030.19,Auto,Active
+1314,385,41097.21,Education,Active
+1315,385,28615.03,Home Improvement,Active
+1316,385,2277.49,Debt Consolidation,Paid Off
+1317,386,14014.1,Education,Active
+1318,386,45785.0,Home Improvement,Active
+1319,386,1731.59,Medical,Paid Off
+1320,386,44201.07,Business,Active
+1321,387,48126.41,Home Improvement,Paid Off
+1322,387,7600.61,Business,Paid Off
+1323,387,3950.73,Home,Paid Off
+1324,390,20768.73,Auto,Paid Off
+1325,390,20542.71,Green Energy,Active
+1326,390,14005.67,Vacation,Active
+1327,390,9592.81,Vacation,Paid Off
+1328,391,49482.23,Medical,Active
+1329,391,28317.72,Home,Active
+1330,391,40738.5,Business,Paid Off
+1331,391,37137.41,Home Improvement,Paid Off
+1332,392,45383.93,Vacation,Paid Off
+1333,392,43612.84,Emergency,Active
+1334,392,26043.25,Debt Consolidation,Paid Off
+1335,394,3474.95,Medical,Paid Off
+1336,394,7082.99,Debt Consolidation,Active
+1337,395,1262.65,Green Energy,Paid Off
+1338,395,45476.98,Vacation,Paid Off
+1339,395,10236.48,Vacation,Active
+1340,395,39955.17,Business,Paid Off
+1341,395,42756.14,Education,Active
+1342,395,11727.86,Debt Consolidation,Active
+1343,395,6767.55,Emergency,Paid Off
+1344,396,5724.09,Education,Active
+1345,396,9821.32,Auto,Active
+1346,397,38811.94,Emergency,Paid Off
+1347,398,35553.86,Green Energy,Active
+1348,398,31180.03,Vacation,Active
+1349,398,41694.3,Auto,Paid Off
+1350,398,27187.33,Debt Consolidation,Paid Off
+1351,398,28935.83,Medical,Paid Off
+1352,399,32857.58,Vacation,Paid Off
+1353,399,39238.38,Auto,Active
+1354,399,17820.37,Emergency,Active
+1355,400,34294.93,Debt Consolidation,Active
+1356,400,2447.87,Medical,Active
+1357,400,30548.73,Green Energy,Paid Off
+1358,400,17534.16,Green Energy,Paid Off
+1359,400,2271.04,Personal,Active
+1360,400,36087.18,Education,Active
+1361,400,26544.06,Home,Active
+1362,402,11074.78,Debt Consolidation,Paid Off
+1363,402,24085.87,Personal,Active
+1364,403,32683.42,Personal,Paid Off
+1365,403,21908.41,Medical,Active
+1366,403,43720.55,Education,Paid Off
+1367,403,39422.06,Emergency,Paid Off
+1368,403,44239.34,Home,Paid Off
+1369,403,30130.13,Medical,Paid Off
+1370,404,12762.15,Home Improvement,Active
+1371,404,36429.12,Emergency,Paid Off
+1372,405,18405.25,Green Energy,Paid Off
+1373,406,26249.76,Emergency,Active
+1374,406,14365.45,Auto,Active
+1375,406,7777.04,Green Energy,Paid Off
+1376,406,33194.35,Debt Consolidation,Active
+1377,406,19428.16,Green Energy,Active
+1378,406,6017.3,Emergency,Paid Off
+1379,407,44954.77,Emergency,Active
+1380,407,8470.51,Emergency,Active
+1381,408,39816.67,Education,Paid Off
+1382,408,42120.17,Vacation,Paid Off
+1383,408,39974.44,Vacation,Paid Off
+1384,409,18534.25,Debt Consolidation,Active
+1385,409,19572.78,Business,Active
+1386,409,41264.66,Vacation,Active
+1387,409,37566.2,Medical,Active
+1388,409,18062.57,Education,Active
+1389,409,23331.38,Education,Paid Off
+1390,410,38882.96,Home Improvement,Active
+1391,411,6400.85,Education,Active
+1392,411,40858.26,Personal,Active
+1393,411,27960.67,Business,Active
+1394,411,18606.67,Green Energy,Paid Off
+1395,413,44665.38,Auto,Active
+1396,413,16192.93,Auto,Active
+1397,413,39233.59,Business,Active
+1398,413,46868.33,Business,Paid Off
+1399,413,48199.94,Medical,Active
+1400,413,10497.48,Business,Paid Off
+1401,414,19720.77,Business,Paid Off
+1402,415,3304.66,Emergency,Paid Off
+1403,415,22975.52,Home Improvement,Paid Off
+1404,415,37668.83,Education,Paid Off
+1405,416,38439.86,Auto,Active
+1406,416,26921.96,Auto,Paid Off
+1407,416,13426.95,Business,Paid Off
+1408,416,10744.45,Auto,Paid Off
+1409,417,19122.32,Medical,Active
+1410,418,29495.29,Home Improvement,Active
+1411,418,21948.71,Education,Paid Off
+1412,418,43528.44,Auto,Active
+1413,419,27190.36,Vacation,Active
+1414,419,10695.43,Education,Paid Off
+1415,419,36950.07,Business,Active
+1416,419,8687.88,Personal,Active
+1417,419,20071.26,Emergency,Active
+1418,419,20430.39,Home Improvement,Active
+1419,420,31078.33,Debt Consolidation,Paid Off
+1420,420,21089.51,Vacation,Paid Off
+1421,420,36770.84,Home,Paid Off
+1422,420,14619.67,Home,Active
+1423,420,48484.56,Home Improvement,Paid Off
+1424,421,9991.54,Home,Active
+1425,421,23199.11,Education,Active
+1426,421,42617.73,Emergency,Paid Off
+1427,421,36376.36,Personal,Paid Off
+1428,421,27850.41,Education,Active
+1429,421,3286.43,Debt Consolidation,Paid Off
+1430,423,35548.65,Emergency,Paid Off
+1431,423,5848.95,Medical,Active
+1432,424,30078.31,Vacation,Paid Off
+1433,424,30465.23,Home,Paid Off
+1434,424,43031.72,Home Improvement,Paid Off
+1435,424,46350.19,Home Improvement,Paid Off
+1436,425,5177.23,Emergency,Active
+1437,425,3453.94,Green Energy,Paid Off
+1438,425,28524.63,Business,Paid Off
+1439,425,38919.08,Personal,Active
+1440,426,45047.68,Business,Active
+1441,426,29598.25,Auto,Paid Off
+1442,426,41263.67,Education,Paid Off
+1443,426,11964.13,Debt Consolidation,Active
+1444,426,41849.77,Home,Paid Off
+1445,427,43283.27,Home,Active
+1446,427,29868.05,Business,Paid Off
+1447,427,14789.67,Education,Active
+1448,427,43939.58,Green Energy,Active
+1449,428,39393.35,Home Improvement,Paid Off
+1450,428,10940.92,Medical,Active
+1451,429,32465.57,Green Energy,Active
+1452,429,6226.65,Vacation,Paid Off
+1453,429,41047.94,Green Energy,Paid Off
+1454,429,5603.98,Auto,Active
+1455,429,17283.75,Medical,Paid Off
+1456,430,40272.58,Education,Paid Off
+1457,431,34028.19,Education,Active
+1458,432,1053.3,Vacation,Active
+1459,432,1569.49,Personal,Active
+1460,432,14214.97,Business,Active
+1461,432,34329.55,Medical,Paid Off
+1462,432,42564.83,Vacation,Active
+1463,433,2506.72,Education,Paid Off
+1464,433,10462.57,Auto,Active
+1465,433,6335.39,Home,Active
+1466,433,26515.5,Personal,Paid Off
+1467,434,29609.43,Medical,Paid Off
+1468,434,47298.1,Emergency,Paid Off
+1469,434,25411.01,Medical,Paid Off
+1470,434,30923.7,Medical,Paid Off
+1471,434,42267.9,Home Improvement,Paid Off
+1472,435,7245.36,Home,Paid Off
+1473,436,29492.6,Business,Active
+1474,437,29648.37,Personal,Paid Off
+1475,437,29097.95,Personal,Active
+1476,437,26562.62,Home,Active
+1477,439,21142.94,Education,Paid Off
+1478,439,8522.96,Home Improvement,Paid Off
+1479,439,12331.96,Business,Paid Off
+1480,440,42913.07,Home,Paid Off
+1481,440,28470.69,Education,Active
+1482,440,37591.63,Home Improvement,Active
+1483,440,14277.4,Personal,Active
+1484,440,26561.12,Education,Paid Off
+1485,440,36153.75,Business,Active
+1486,441,1725.76,Education,Paid Off
+1487,441,37101.61,Auto,Active
+1488,441,23802.94,Auto,Paid Off
+1489,443,40794.03,Personal,Paid Off
+1490,443,19224.11,Education,Paid Off
+1491,443,43422.41,Business,Active
+1492,443,46575.15,Vacation,Paid Off
+1493,443,1027.54,Home Improvement,Active
+1494,444,11586.56,Emergency,Paid Off
+1495,444,27264.49,Auto,Paid Off
+1496,444,49409.34,Education,Active
+1497,445,9382.64,Emergency,Paid Off
+1498,445,8509.53,Auto,Active
+1499,446,13338.39,Auto,Paid Off
+1500,446,14780.59,Education,Active
+1501,446,35476.1,Home Improvement,Active
+1502,446,22995.81,Emergency,Paid Off
+1503,446,31067.45,Emergency,Paid Off
+1504,446,23026.15,Vacation,Active
+1505,447,4318.44,Personal,Active
+1506,447,4378.36,Education,Paid Off
+1507,447,42260.95,Auto,Paid Off
+1508,447,6882.22,Green Energy,Paid Off
+1509,447,37583.78,Vacation,Paid Off
+1510,447,39664.79,Green Energy,Paid Off
+1511,448,22149.84,Personal,Active
+1512,448,24991.57,Home,Paid Off
+1513,448,31321.28,Business,Active
+1514,448,23920.7,Home Improvement,Active
+1515,448,27367.95,Home Improvement,Active
+1516,448,39409.88,Green Energy,Active
+1517,450,46741.92,Auto,Paid Off
+1518,450,3803.0,Education,Active
+1519,450,20420.1,Auto,Paid Off
+1520,450,32172.9,Education,Active
+1521,450,34122.69,Auto,Paid Off
+1522,450,15476.31,Debt Consolidation,Active
+1523,450,49747.18,Home Improvement,Paid Off
+1524,451,37192.81,Debt Consolidation,Active
+1525,451,34230.79,Debt Consolidation,Active
+1526,451,47931.02,Green Energy,Paid Off
+1527,453,17896.99,Home,Paid Off
+1528,453,22636.17,Personal,Active
+1529,453,6211.69,Home Improvement,Active
+1530,453,9598.35,Green Energy,Active
+1531,453,8592.31,Education,Paid Off
+1532,453,42726.26,Home Improvement,Active
+1533,454,25860.48,Business,Paid Off
+1534,454,7675.08,Business,Paid Off
+1535,454,34404.84,Emergency,Paid Off
+1536,455,36747.63,Debt Consolidation,Paid Off
+1537,455,2633.56,Education,Paid Off
+1538,456,14084.52,Home,Paid Off
+1539,456,25988.22,Auto,Paid Off
+1540,457,3972.88,Vacation,Paid Off
+1541,457,11257.27,Green Energy,Paid Off
+1542,457,44098.77,Home Improvement,Paid Off
+1543,457,43881.53,Auto,Active
+1544,458,43322.57,Personal,Active
+1545,458,14765.82,Vacation,Active
+1546,458,16405.49,Emergency,Paid Off
+1547,458,43773.33,Auto,Active
+1548,458,6491.44,Green Energy,Active
+1549,459,48828.63,Debt Consolidation,Paid Off
+1550,459,23010.04,Green Energy,Paid Off
+1551,459,12297.26,Vacation,Active
+1552,459,23837.05,Debt Consolidation,Active
+1553,459,12417.96,Business,Paid Off
+1554,459,46568.64,Business,Active
+1555,459,14286.12,Auto,Active
+1556,460,8826.34,Medical,Active
+1557,460,20790.67,Green Energy,Paid Off
+1558,460,19475.31,Education,Paid Off
+1559,460,44149.99,Green Energy,Paid Off
+1560,460,31002.1,Auto,Active
+1561,461,42667.43,Vacation,Active
+1562,461,44367.27,Home Improvement,Paid Off
+1563,461,30750.47,Home Improvement,Paid Off
+1564,461,22281.92,Home Improvement,Active
+1565,461,12324.76,Auto,Active
+1566,461,42888.04,Emergency,Active
+1567,462,49086.5,Business,Active
+1568,463,33294.95,Personal,Paid Off
+1569,464,29175.7,Education,Active
+1570,464,24101.95,Business,Active
+1571,465,13288.12,Business,Paid Off
+1572,465,15022.19,Emergency,Active
+1573,466,49645.57,Home Improvement,Paid Off
+1574,467,18144.69,Medical,Paid Off
+1575,467,26470.96,Green Energy,Active
+1576,468,45978.21,Debt Consolidation,Paid Off
+1577,469,33216.37,Emergency,Active
+1578,469,37253.69,Business,Active
+1579,469,32131.14,Auto,Active
+1580,469,25320.52,Personal,Active
+1581,469,37040.24,Green Energy,Paid Off
+1582,470,2689.01,Debt Consolidation,Paid Off
+1583,470,46293.98,Home,Active
+1584,470,34756.94,Green Energy,Active
+1585,470,7564.79,Debt Consolidation,Active
+1586,470,35771.7,Home,Paid Off
+1587,470,13980.14,Personal,Paid Off
+1588,471,47271.67,Personal,Paid Off
+1589,471,22363.4,Green Energy,Active
+1590,471,24260.09,Business,Active
+1591,472,21519.59,Education,Paid Off
+1592,473,6461.35,Debt Consolidation,Active
+1593,473,16646.87,Education,Paid Off
+1594,473,22203.75,Home,Active
+1595,473,9390.06,Personal,Active
+1596,473,28059.48,Home,Active
+1597,473,29011.32,Personal,Active
+1598,473,16349.71,Home Improvement,Paid Off
+1599,474,34476.81,Emergency,Active
+1600,474,33874.31,Education,Active
+1601,474,39173.85,Green Energy,Paid Off
+1602,474,26595.31,Debt Consolidation,Active
+1603,474,26885.6,Personal,Paid Off
+1604,474,21465.71,Home,Active
+1605,474,23089.75,Business,Paid Off
+1606,475,28449.53,Business,Paid Off
+1607,475,7583.7,Medical,Active
+1608,475,37081.13,Medical,Active
+1609,475,4505.23,Medical,Paid Off
+1610,475,37512.21,Home,Paid Off
+1611,475,8912.99,Emergency,Active
+1612,475,15455.78,Education,Active
+1613,477,49424.17,Emergency,Paid Off
+1614,477,40655.97,Personal,Active
+1615,477,19750.07,Home,Paid Off
+1616,477,15666.34,Personal,Paid Off
+1617,478,6077.03,Auto,Active
+1618,478,45521.0,Debt Consolidation,Active
+1619,479,12234.73,Home Improvement,Paid Off
+1620,479,23272.47,Emergency,Active
+1621,480,41891.24,Medical,Active
+1622,480,40390.02,Auto,Paid Off
+1623,480,39633.38,Green Energy,Paid Off
+1624,480,37148.87,Vacation,Active
+1625,480,26123.49,Education,Paid Off
+1626,480,9560.12,Personal,Active
+1627,480,12909.17,Home,Paid Off
+1628,481,3925.74,Home,Paid Off
+1629,481,16723.93,Business,Active
+1630,481,16486.57,Personal,Paid Off
+1631,482,37399.15,Education,Paid Off
+1632,482,15384.82,Medical,Active
+1633,482,2956.06,Business,Paid Off
+1634,482,2510.37,Medical,Active
+1635,482,12909.49,Home,Paid Off
+1636,482,10873.44,Medical,Active
+1637,482,25136.81,Green Energy,Paid Off
+1638,483,29682.13,Home Improvement,Active
+1639,483,25391.15,Home Improvement,Active
+1640,483,31136.45,Vacation,Active
+1641,483,8184.18,Home Improvement,Paid Off
+1642,483,12765.93,Personal,Paid Off
+1643,483,29678.06,Auto,Active
+1644,483,42598.9,Emergency,Paid Off
+1645,484,6018.62,Vacation,Active
+1646,485,21823.56,Vacation,Active
+1647,485,32693.4,Home,Paid Off
+1648,485,16697.39,Medical,Paid Off
+1649,485,7945.89,Green Energy,Active
+1650,485,29626.09,Personal,Paid Off
+1651,486,18925.41,Home Improvement,Active
+1652,486,19096.26,Medical,Paid Off
+1653,486,41462.71,Education,Active
+1654,486,47643.98,Green Energy,Active
+1655,487,25791.38,Personal,Paid Off
+1656,487,11982.7,Home,Paid Off
+1657,487,40364.39,Education,Paid Off
+1658,487,24920.92,Vacation,Paid Off
+1659,487,21611.76,Green Energy,Paid Off
+1660,487,14066.3,Business,Active
+1661,487,11423.37,Home,Active
+1662,489,42754.6,Vacation,Paid Off
+1663,489,31212.59,Auto,Active
+1664,489,30340.61,Home,Paid Off
+1665,489,6021.92,Business,Paid Off
+1666,490,25538.58,Home,Paid Off
+1667,490,10642.92,Debt Consolidation,Active
+1668,490,5712.89,Home,Paid Off
+1669,490,24520.19,Auto,Active
+1670,490,13741.88,Business,Active
+1671,490,43779.01,Green Energy,Paid Off
+1672,491,25347.61,Emergency,Active
+1673,491,3061.99,Home,Paid Off
+1674,492,43682.9,Debt Consolidation,Active
+1675,492,24176.52,Debt Consolidation,Active
+1676,492,39717.78,Home Improvement,Paid Off
+1677,492,42024.06,Medical,Paid Off
+1678,492,40142.36,Debt Consolidation,Paid Off
+1679,493,28379.29,Home,Active
+1680,493,46239.46,Business,Active
+1681,493,6458.84,Green Energy,Active
+1682,493,17685.99,Emergency,Paid Off
+1683,494,30889.46,Green Energy,Active
+1684,494,17238.6,Home Improvement,Active
+1685,494,48651.22,Medical,Paid Off
+1686,494,49388.51,Auto,Active
+1687,494,14130.82,Business,Active
+1688,494,44693.76,Medical,Active
+1689,494,12209.35,Personal,Paid Off
+1690,495,30763.93,Debt Consolidation,Active
+1691,495,15344.03,Auto,Active
+1692,495,25326.39,Business,Active
+1693,496,16070.54,Business,Paid Off
+1694,496,35763.54,Vacation,Paid Off
+1695,496,13672.05,Home,Paid Off
+1696,496,9762.48,Home,Active
+1697,496,25659.3,Medical,Active
+1698,496,17324.56,Business,Paid Off
+1699,497,39932.62,Auto,Paid Off
+1700,498,22727.8,Emergency,Active
+1701,499,47889.56,Debt Consolidation,Paid Off
+1702,499,12170.53,Home,Active
+1703,499,14022.95,Home Improvement,Active
+1704,500,31252.28,Business,Paid Off
+1705,500,21276.8,Personal,Paid Off
+1706,500,3688.18,Home Improvement,Active
+1707,500,14089.2,Education,Active
+1708,500,37516.55,Home,Active
+1709,500,20356.05,Home,Active
+1710,500,20253.2,Personal,Active
+1711,502,15618.41,Vacation,Paid Off
+1712,502,11587.49,Emergency,Paid Off
+1713,503,17749.89,Education,Active
+1714,503,6744.54,Emergency,Active
+1715,503,41031.72,Home Improvement,Active
+1716,503,2130.59,Business,Paid Off
+1717,503,49450.34,Vacation,Active
+1718,503,25860.08,Business,Paid Off
+1719,503,49761.43,Auto,Paid Off
+1720,504,5021.92,Auto,Active
+1721,504,31642.47,Medical,Active
+1722,504,9336.88,Business,Paid Off
+1723,505,24454.65,Home Improvement,Paid Off
+1724,506,42668.43,Auto,Active
+1725,506,38661.44,Education,Paid Off
+1726,506,31087.12,Debt Consolidation,Paid Off
+1727,506,25556.85,Business,Paid Off
+1728,507,43248.06,Medical,Active
+1729,507,14824.98,Debt Consolidation,Paid Off
+1730,507,20440.33,Business,Active
+1731,507,1099.93,Auto,Paid Off
+1732,508,25214.35,Home Improvement,Paid Off
+1733,508,29333.28,Personal,Paid Off
+1734,508,45967.02,Auto,Active
+1735,508,10054.42,Personal,Paid Off
+1736,509,45762.55,Personal,Active
+1737,509,45180.45,Auto,Active
+1738,509,49897.03,Medical,Paid Off
+1739,509,22975.93,Home Improvement,Active
+1740,509,37601.38,Home,Paid Off
+1741,509,18317.86,Auto,Paid Off
+1742,510,22936.01,Medical,Paid Off
+1743,510,46189.92,Education,Active
+1744,513,11636.65,Auto,Paid Off
+1745,513,2554.4,Vacation,Paid Off
+1746,513,46561.56,Green Energy,Active
+1747,514,2700.4,Home,Active
+1748,514,20407.91,Business,Active
+1749,514,25325.72,Personal,Active
+1750,514,13872.42,Debt Consolidation,Active
+1751,515,32125.58,Auto,Paid Off
+1752,516,34416.96,Debt Consolidation,Paid Off
+1753,516,6098.81,Emergency,Paid Off
+1754,517,38884.77,Vacation,Paid Off
+1755,517,23385.65,Auto,Active
+1756,517,49700.33,Debt Consolidation,Active
+1757,517,41201.87,Home,Paid Off
+1758,517,23557.05,Green Energy,Paid Off
+1759,518,25079.1,Business,Active
+1760,518,30374.17,Green Energy,Active
+1761,518,23650.04,Business,Paid Off
+1762,519,13949.41,Vacation,Active
+1763,519,29979.73,Home Improvement,Active
+1764,519,46373.97,Emergency,Active
+1765,519,17911.97,Home,Paid Off
+1766,519,46106.83,Home,Active
+1767,519,14337.63,Medical,Paid Off
+1768,520,44683.15,Education,Active
+1769,520,20104.47,Debt Consolidation,Paid Off
+1770,520,45610.46,Education,Active
+1771,520,1070.91,Emergency,Paid Off
+1772,522,29820.33,Personal,Paid Off
+1773,522,40442.51,Vacation,Paid Off
+1774,522,9499.98,Auto,Paid Off
+1775,522,45682.27,Debt Consolidation,Paid Off
+1776,522,16178.58,Home Improvement,Active
+1777,522,39572.02,Home,Paid Off
+1778,522,40777.58,Vacation,Paid Off
+1779,523,37179.34,Education,Active
+1780,523,41881.37,Personal,Active
+1781,523,23624.32,Education,Active
+1782,523,12906.77,Debt Consolidation,Paid Off
+1783,523,8335.69,Medical,Paid Off
+1784,523,23264.62,Green Energy,Active
+1785,524,43364.58,Green Energy,Active
+1786,524,49339.29,Education,Active
+1787,524,17278.61,Green Energy,Active
+1788,525,23494.53,Debt Consolidation,Active
+1789,525,13300.99,Emergency,Active
+1790,525,25626.09,Home Improvement,Paid Off
+1791,525,25686.62,Business,Active
+1792,525,31080.18,Vacation,Paid Off
+1793,525,13048.49,Green Energy,Active
+1794,525,21946.92,Medical,Paid Off
+1795,527,41301.28,Business,Active
+1796,527,34706.67,Emergency,Active
+1797,527,15276.16,Medical,Paid Off
+1798,527,39418.84,Emergency,Active
+1799,528,20852.23,Business,Paid Off
+1800,528,6157.6,Medical,Paid Off
+1801,528,14438.54,Home Improvement,Active
+1802,529,24647.58,Business,Active
+1803,529,37799.55,Vacation,Paid Off
+1804,529,39197.47,Home,Paid Off
+1805,529,10689.27,Education,Paid Off
+1806,529,48845.81,Education,Paid Off
+1807,529,32405.02,Auto,Paid Off
+1808,531,10141.15,Debt Consolidation,Paid Off
+1809,531,23553.21,Personal,Paid Off
+1810,531,25227.58,Emergency,Active
+1811,531,43176.99,Auto,Active
+1812,532,8357.75,Home Improvement,Paid Off
+1813,532,17146.65,Emergency,Active
+1814,532,31098.25,Personal,Paid Off
+1815,532,41109.87,Home Improvement,Active
+1816,532,32416.15,Home,Active
+1817,533,32543.78,Business,Active
+1818,533,32090.56,Business,Paid Off
+1819,533,13191.52,Medical,Paid Off
+1820,533,23273.44,Green Energy,Paid Off
+1821,533,42133.54,Emergency,Active
+1822,533,8144.32,Medical,Paid Off
+1823,533,3709.96,Debt Consolidation,Active
+1824,534,1233.18,Vacation,Paid Off
+1825,534,1305.04,Medical,Active
+1826,534,25769.92,Debt Consolidation,Active
+1827,534,19392.21,Vacation,Active
+1828,535,1893.31,Debt Consolidation,Active
+1829,535,14948.71,Emergency,Paid Off
+1830,535,2466.03,Medical,Active
+1831,535,23641.26,Medical,Paid Off
+1832,535,22891.11,Medical,Active
+1833,535,1433.84,Personal,Active
+1834,536,7886.58,Emergency,Paid Off
+1835,536,19523.13,Auto,Paid Off
+1836,536,15971.72,Vacation,Paid Off
+1837,536,24468.36,Vacation,Active
+1838,536,5094.54,Auto,Active
+1839,536,29406.73,Auto,Active
+1840,536,45461.95,Personal,Active
+1841,537,18133.06,Vacation,Active
+1842,537,14660.03,Emergency,Active
+1843,537,49922.55,Medical,Paid Off
+1844,537,12156.74,Personal,Paid Off
+1845,537,39716.35,Education,Active
+1846,537,33886.05,Auto,Paid Off
+1847,537,12033.74,Home,Active
+1848,538,24078.4,Personal,Paid Off
+1849,539,43195.5,Debt Consolidation,Paid Off
+1850,539,23338.74,Business,Active
+1851,539,2741.84,Auto,Active
+1852,539,2621.21,Vacation,Active
+1853,540,10214.23,Vacation,Paid Off
+1854,540,20012.27,Home,Active
+1855,540,29331.47,Home,Paid Off
+1856,540,49213.16,Debt Consolidation,Paid Off
+1857,540,6581.56,Emergency,Paid Off
+1858,541,19406.14,Green Energy,Paid Off
+1859,541,18677.81,Education,Paid Off
+1860,541,16692.83,Debt Consolidation,Active
+1861,541,24653.27,Green Energy,Paid Off
+1862,541,27612.91,Medical,Paid Off
+1863,542,31730.72,Vacation,Paid Off
+1864,542,15376.62,Home Improvement,Active
+1865,543,8117.26,Education,Active
+1866,543,13837.62,Home Improvement,Active
+1867,543,12195.92,Emergency,Paid Off
+1868,543,16765.28,Home Improvement,Active
+1869,543,47947.16,Home,Active
+1870,543,3789.95,Debt Consolidation,Paid Off
+1871,544,21556.87,Debt Consolidation,Paid Off
+1872,544,49721.23,Green Energy,Paid Off
+1873,544,23028.1,Business,Active
+1874,544,20691.27,Business,Active
+1875,544,22121.54,Emergency,Active
+1876,544,11552.24,Auto,Active
+1877,544,35356.37,Auto,Paid Off
+1878,545,32590.9,Personal,Paid Off
+1879,545,40068.31,Personal,Active
+1880,545,27040.08,Green Energy,Paid Off
+1881,545,26589.6,Auto,Paid Off
+1882,545,4092.03,Home Improvement,Paid Off
+1883,545,23258.34,Auto,Paid Off
+1884,545,5989.08,Personal,Active
+1885,546,11450.58,Education,Active
+1886,547,33004.5,Debt Consolidation,Paid Off
+1887,548,27780.29,Personal,Active
+1888,548,3826.13,Home Improvement,Paid Off
+1889,548,6521.43,Debt Consolidation,Paid Off
+1890,548,43088.83,Vacation,Active
+1891,548,41596.61,Personal,Active
+1892,550,20783.44,Personal,Active
+1893,550,46586.19,Debt Consolidation,Paid Off
+1894,550,1959.52,Debt Consolidation,Paid Off
+1895,550,5876.48,Personal,Active
+1896,550,45737.49,Home Improvement,Active
+1897,550,20144.6,Auto,Active
+1898,550,38707.38,Debt Consolidation,Paid Off
+1899,551,41730.53,Personal,Active
+1900,552,9393.92,Personal,Active
+1901,554,18181.45,Auto,Paid Off
+1902,554,24000.67,Education,Active
+1903,554,23830.13,Home,Paid Off
+1904,555,11501.71,Emergency,Paid Off
+1905,555,12524.8,Medical,Paid Off
+1906,555,4740.77,Green Energy,Active
+1907,556,2505.17,Business,Paid Off
+1908,556,10363.74,Home,Paid Off
+1909,556,19345.84,Emergency,Active
+1910,556,21887.49,Education,Active
+1911,556,41395.73,Auto,Paid Off
+1912,557,16339.98,Personal,Active
+1913,557,33100.9,Green Energy,Paid Off
+1914,557,2535.82,Auto,Active
+1915,557,21625.57,Green Energy,Paid Off
+1916,557,18539.24,Business,Paid Off
+1917,557,26345.83,Auto,Active
+1918,557,27863.03,Personal,Active
+1919,558,11047.49,Medical,Paid Off
+1920,558,21720.02,Emergency,Active
+1921,558,26128.71,Green Energy,Paid Off
+1922,558,45957.38,Auto,Paid Off
+1923,558,24214.28,Vacation,Paid Off
+1924,559,38881.74,Emergency,Active
+1925,559,5615.11,Emergency,Paid Off
+1926,559,14732.15,Green Energy,Active
+1927,559,39536.46,Business,Paid Off
+1928,559,12899.36,Personal,Paid Off
+1929,560,36482.51,Emergency,Paid Off
+1930,560,22058.7,Debt Consolidation,Paid Off
+1931,560,20439.57,Emergency,Paid Off
+1932,560,12951.62,Medical,Active
+1933,560,1182.31,Auto,Active
+1934,560,43177.23,Debt Consolidation,Paid Off
+1935,560,17562.66,Home Improvement,Active
+1936,561,24319.12,Home Improvement,Active
+1937,561,2730.1,Debt Consolidation,Active
+1938,561,8196.5,Home Improvement,Paid Off
+1939,562,10050.63,Auto,Paid Off
+1940,562,17310.98,Debt Consolidation,Paid Off
+1941,562,10671.29,Home Improvement,Active
+1942,562,10376.92,Medical,Paid Off
+1943,562,1688.09,Vacation,Active
+1944,562,24763.11,Debt Consolidation,Paid Off
+1945,562,33572.27,Green Energy,Active
+1946,563,5153.81,Medical,Active
+1947,563,47095.65,Medical,Paid Off
+1948,563,20689.12,Education,Active
+1949,563,17099.27,Education,Paid Off
+1950,563,43671.58,Business,Paid Off
+1951,563,39391.11,Medical,Active
+1952,563,35102.68,Home,Active
+1953,564,23711.92,Vacation,Active
+1954,564,23472.2,Auto,Paid Off
+1955,564,22175.11,Home,Paid Off
+1956,564,43380.72,Home Improvement,Active
+1957,565,7925.99,Medical,Paid Off
+1958,565,16685.43,Personal,Paid Off
+1959,565,49950.27,Vacation,Paid Off
+1960,565,31693.28,Home,Active
+1961,565,45021.17,Home Improvement,Paid Off
+1962,566,36383.26,Vacation,Paid Off
+1963,566,8798.26,Auto,Paid Off
+1964,566,38470.31,Education,Paid Off
+1965,566,34869.29,Business,Active
+1966,566,23157.38,Green Energy,Active
+1967,567,39600.56,Home Improvement,Active
+1968,567,33668.56,Auto,Paid Off
+1969,567,36430.37,Debt Consolidation,Active
+1970,567,32805.53,Auto,Paid Off
+1971,567,48667.34,Debt Consolidation,Active
+1972,568,16181.3,Home Improvement,Paid Off
+1973,568,37451.34,Debt Consolidation,Paid Off
+1974,568,37049.09,Debt Consolidation,Active
+1975,568,16058.76,Home,Paid Off
+1976,568,49325.33,Emergency,Paid Off
+1977,569,14422.76,Emergency,Active
+1978,569,38114.47,Home,Paid Off
+1979,569,12678.32,Debt Consolidation,Active
+1980,569,16450.29,Auto,Paid Off
+1981,569,30757.83,Home,Paid Off
+1982,569,24360.56,Green Energy,Paid Off
+1983,570,9513.78,Personal,Paid Off
+1984,570,16309.19,Auto,Paid Off
+1985,570,3814.01,Auto,Active
+1986,570,17764.27,Education,Active
+1987,571,17647.51,Education,Active
+1988,571,1398.98,Home,Paid Off
+1989,571,27372.05,Emergency,Paid Off
+1990,571,6833.24,Home Improvement,Paid Off
+1991,571,45638.56,Debt Consolidation,Active
+1992,571,22879.36,Education,Paid Off
+1993,572,19311.73,Debt Consolidation,Active
+1994,572,25166.8,Home Improvement,Active
+1995,572,40979.08,Green Energy,Paid Off
+1996,572,39786.81,Personal,Paid Off
+1997,572,18345.82,Green Energy,Active
+1998,573,9050.21,Vacation,Paid Off
+1999,573,41979.56,Personal,Active
+2000,573,30159.74,Education,Active
+2001,573,37242.6,Debt Consolidation,Paid Off
+2002,574,25791.31,Business,Active
+2003,574,42488.07,Personal,Paid Off
+2004,574,8986.96,Debt Consolidation,Active
+2005,574,10382.8,Home,Active
+2006,575,14326.37,Education,Active
+2007,576,43223.53,Emergency,Active
+2008,576,33206.23,Business,Paid Off
+2009,576,20526.56,Auto,Paid Off
+2010,577,41809.77,Personal,Active
+2011,577,2401.57,Vacation,Active
+2012,578,48109.24,Green Energy,Paid Off
+2013,578,11220.39,Green Energy,Active
+2014,578,42360.37,Home,Paid Off
+2015,578,39244.28,Vacation,Active
+2016,578,10082.93,Debt Consolidation,Active
+2017,579,49722.26,Home Improvement,Active
+2018,580,2013.54,Home Improvement,Paid Off
+2019,580,11717.22,Home,Active
+2020,580,9189.89,Debt Consolidation,Paid Off
+2021,581,5843.17,Emergency,Paid Off
+2022,581,24044.1,Green Energy,Paid Off
+2023,581,25731.44,Auto,Paid Off
+2024,581,29579.06,Education,Active
+2025,581,1232.05,Auto,Active
+2026,581,37342.06,Business,Active
+2027,581,6947.95,Home,Active
+2028,582,45800.08,Auto,Paid Off
+2029,582,26394.86,Business,Active
+2030,582,43471.03,Medical,Active
+2031,582,26600.98,Emergency,Paid Off
+2032,584,44652.3,Green Energy,Active
+2033,584,9720.23,Education,Paid Off
+2034,584,20685.5,Education,Active
+2035,584,36661.2,Auto,Paid Off
+2036,584,20274.98,Debt Consolidation,Paid Off
+2037,584,10484.89,Personal,Active
+2038,584,25830.58,Home,Paid Off
+2039,585,23051.51,Debt Consolidation,Active
+2040,585,19257.06,Business,Paid Off
+2041,585,17875.02,Medical,Active
+2042,585,20029.39,Business,Active
+2043,585,17653.25,Home,Paid Off
+2044,586,34682.3,Vacation,Paid Off
+2045,586,49030.82,Business,Paid Off
+2046,586,18775.5,Green Energy,Active
+2047,586,34459.15,Emergency,Paid Off
+2048,586,33823.87,Education,Paid Off
+2049,586,13314.85,Debt Consolidation,Active
+2050,586,37983.96,Education,Active
+2051,587,43451.92,Business,Paid Off
+2052,588,38463.35,Auto,Active
+2053,588,40356.89,Home,Paid Off
+2054,589,47851.91,Home,Paid Off
+2055,589,45311.15,Business,Paid Off
+2056,589,4537.17,Business,Active
+2057,590,39673.11,Medical,Active
+2058,590,41965.86,Home Improvement,Active
+2059,590,16153.87,Home Improvement,Active
+2060,590,49856.31,Education,Paid Off
+2061,591,41710.42,Emergency,Paid Off
+2062,591,37360.73,Home,Active
+2063,591,12464.42,Emergency,Active
+2064,591,1010.95,Auto,Active
+2065,591,20307.81,Auto,Paid Off
+2066,592,19698.95,Emergency,Paid Off
+2067,592,47667.88,Green Energy,Paid Off
+2068,593,16520.74,Medical,Paid Off
+2069,593,14918.69,Home Improvement,Active
+2070,594,31466.79,Auto,Paid Off
+2071,595,14404.42,Auto,Paid Off
+2072,595,3512.36,Debt Consolidation,Active
+2073,595,16893.92,Emergency,Active
+2074,595,5853.96,Personal,Active
+2075,596,49292.05,Medical,Paid Off
+2076,596,4495.12,Debt Consolidation,Active
+2077,596,28135.12,Home Improvement,Paid Off
+2078,596,1146.03,Home Improvement,Paid Off
+2079,598,45661.37,Medical,Paid Off
+2080,598,42964.8,Vacation,Active
+2081,598,47320.91,Vacation,Active
+2082,598,43853.51,Green Energy,Active
+2083,598,24607.3,Education,Active
+2084,598,6670.81,Debt Consolidation,Active
+2085,600,42361.34,Vacation,Paid Off
+2086,600,38035.57,Personal,Active
+2087,600,25328.8,Home,Active
+2088,600,49579.92,Auto,Paid Off
+2089,601,14751.88,Home Improvement,Active
+2090,602,35847.52,Personal,Paid Off
+2091,602,36363.27,Home,Paid Off
+2092,602,33124.02,Green Energy,Active
+2093,602,21989.41,Education,Paid Off
+2094,602,42678.26,Medical,Paid Off
+2095,602,9753.84,Business,Active
+2096,602,4271.92,Emergency,Active
+2097,603,35211.76,Green Energy,Active
+2098,603,6128.99,Education,Paid Off
+2099,603,36558.43,Vacation,Paid Off
+2100,603,23658.57,Auto,Paid Off
+2101,605,18229.0,Emergency,Paid Off
+2102,605,48777.63,Green Energy,Active
+2103,605,15581.87,Personal,Paid Off
+2104,607,29011.88,Personal,Active
+2105,607,41600.43,Vacation,Paid Off
+2106,607,44372.2,Green Energy,Active
+2107,608,12427.84,Emergency,Paid Off
+2108,608,17377.9,Green Energy,Active
+2109,608,24752.48,Green Energy,Paid Off
+2110,608,23694.46,Medical,Paid Off
+2111,608,25572.82,Green Energy,Active
+2112,608,27764.79,Green Energy,Paid Off
+2113,608,21962.9,Business,Paid Off
+2114,609,5256.16,Green Energy,Paid Off
+2115,610,26822.71,Emergency,Paid Off
+2116,610,35994.82,Business,Active
+2117,610,6280.67,Home,Paid Off
+2118,610,14435.77,Auto,Paid Off
+2119,612,27985.28,Education,Active
+2120,612,6424.68,Medical,Active
+2121,612,31560.66,Home Improvement,Paid Off
+2122,612,19843.87,Green Energy,Paid Off
+2123,612,41117.92,Home,Active
+2124,612,29321.3,Auto,Paid Off
+2125,612,4121.59,Education,Active
+2126,613,18476.51,Personal,Active
+2127,615,33071.49,Medical,Paid Off
+2128,615,33884.79,Home,Active
+2129,615,26539.52,Home Improvement,Active
+2130,615,30697.1,Auto,Paid Off
+2131,616,24455.33,Vacation,Active
+2132,616,44569.56,Home,Paid Off
+2133,616,23092.66,Debt Consolidation,Active
+2134,616,18288.0,Home Improvement,Paid Off
+2135,616,18064.14,Home Improvement,Paid Off
+2136,616,16894.53,Home Improvement,Active
+2137,616,38621.22,Auto,Active
+2138,617,26512.61,Vacation,Paid Off
+2139,617,42314.43,Green Energy,Active
+2140,618,38395.73,Medical,Paid Off
+2141,618,19809.38,Education,Paid Off
+2142,619,19155.91,Green Energy,Active
+2143,619,23949.61,Debt Consolidation,Active
+2144,619,21471.53,Home,Active
+2145,619,10845.26,Personal,Paid Off
+2146,621,28946.18,Home,Active
+2147,621,14643.95,Vacation,Paid Off
+2148,621,23026.58,Home,Active
+2149,621,18737.31,Debt Consolidation,Active
+2150,622,24656.69,Education,Paid Off
+2151,622,48696.95,Personal,Active
+2152,623,39835.72,Debt Consolidation,Active
+2153,623,44989.49,Emergency,Paid Off
+2154,623,17225.76,Home,Paid Off
+2155,623,13375.03,Home Improvement,Paid Off
+2156,623,12727.37,Medical,Paid Off
+2157,623,31464.19,Emergency,Active
+2158,623,21689.57,Education,Active
+2159,624,13509.83,Medical,Active
+2160,624,36694.14,Vacation,Active
+2161,624,15737.23,Education,Paid Off
+2162,624,48322.34,Personal,Paid Off
+2163,624,5110.92,Home Improvement,Active
+2164,624,28486.09,Debt Consolidation,Active
+2165,625,44047.35,Auto,Paid Off
+2166,625,23321.15,Home,Active
+2167,625,38439.25,Business,Active
+2168,625,11600.22,Personal,Paid Off
+2169,626,31623.74,Home,Paid Off
+2170,627,18043.17,Education,Paid Off
+2171,627,31907.68,Business,Paid Off
+2172,627,27581.2,Education,Active
+2173,628,47456.94,Auto,Paid Off
+2174,628,29394.54,Home Improvement,Paid Off
+2175,628,22217.36,Emergency,Paid Off
+2176,628,18174.94,Emergency,Paid Off
+2177,628,38687.01,Home Improvement,Active
+2178,629,14680.47,Vacation,Paid Off
+2179,629,8200.81,Emergency,Active
+2180,629,10960.73,Medical,Active
+2181,630,4461.83,Medical,Active
+2182,630,4808.27,Green Energy,Active
+2183,631,22703.9,Business,Paid Off
+2184,631,17621.3,Debt Consolidation,Active
+2185,631,21691.88,Personal,Active
+2186,631,10008.03,Vacation,Paid Off
+2187,631,38430.68,Vacation,Active
+2188,631,5412.58,Vacation,Active
+2189,631,5712.99,Home Improvement,Paid Off
+2190,632,20993.82,Green Energy,Active
+2191,632,17686.2,Debt Consolidation,Paid Off
+2192,632,38831.42,Home Improvement,Active
+2193,632,41485.01,Debt Consolidation,Active
+2194,632,18443.12,Medical,Paid Off
+2195,633,27139.28,Green Energy,Active
+2196,633,46146.61,Personal,Active
+2197,633,40646.26,Education,Active
+2198,637,48096.48,Education,Paid Off
+2199,637,10394.81,Emergency,Paid Off
+2200,637,29327.83,Education,Active
+2201,637,35595.37,Auto,Active
+2202,637,42386.74,Education,Paid Off
+2203,637,1980.49,Home Improvement,Active
+2204,639,5836.48,Emergency,Paid Off
+2205,639,24094.79,Medical,Paid Off
+2206,639,19532.34,Emergency,Paid Off
+2207,639,31922.83,Emergency,Active
+2208,639,29455.94,Home,Paid Off
+2209,639,41046.58,Green Energy,Active
+2210,640,49763.07,Home,Paid Off
+2211,640,30867.04,Emergency,Active
+2212,640,13786.21,Vacation,Active
+2213,640,33295.8,Vacation,Paid Off
+2214,640,41403.47,Debt Consolidation,Paid Off
+2215,641,9912.07,Medical,Active
+2216,642,38716.43,Vacation,Active
+2217,642,24940.59,Education,Paid Off
+2218,642,47336.47,Medical,Paid Off
+2219,642,29022.9,Green Energy,Paid Off
+2220,643,16613.45,Emergency,Paid Off
+2221,643,12102.41,Auto,Active
+2222,644,37450.14,Business,Active
+2223,644,49445.41,Medical,Active
+2224,645,8311.64,Home,Active
+2225,646,41765.35,Emergency,Active
+2226,646,11058.92,Home,Active
+2227,646,39426.11,Auto,Active
+2228,647,22110.04,Personal,Active
+2229,647,48502.52,Medical,Paid Off
+2230,647,24695.04,Vacation,Paid Off
+2231,647,31615.15,Green Energy,Active
+2232,647,7924.39,Auto,Paid Off
+2233,647,19774.42,Vacation,Active
+2234,647,46179.62,Business,Active
+2235,648,10141.46,Personal,Paid Off
+2236,648,23069.46,Debt Consolidation,Paid Off
+2237,648,15003.31,Green Energy,Paid Off
+2238,648,46535.48,Home,Paid Off
+2239,649,10749.34,Emergency,Active
+2240,649,4035.23,Home Improvement,Paid Off
+2241,650,34305.47,Medical,Paid Off
+2242,650,14111.63,Home,Active
+2243,651,26793.55,Green Energy,Active
+2244,651,3924.76,Education,Active
+2245,651,29893.95,Home,Active
+2246,651,28655.88,Home Improvement,Paid Off
+2247,652,31209.16,Home Improvement,Paid Off
+2248,652,15869.99,Education,Paid Off
+2249,652,21278.62,Home,Active
+2250,652,49570.12,Home,Active
+2251,653,33951.63,Home,Paid Off
+2252,653,40990.68,Debt Consolidation,Paid Off
+2253,653,30687.17,Emergency,Active
+2254,653,48491.24,Business,Active
+2255,653,21199.97,Green Energy,Paid Off
+2256,653,21304.19,Home,Active
+2257,654,31695.64,Home Improvement,Paid Off
+2258,654,21826.49,Home,Paid Off
+2259,654,16659.37,Business,Active
+2260,655,12138.05,Medical,Paid Off
+2261,655,3676.91,Vacation,Active
+2262,656,46797.1,Home,Paid Off
+2263,656,14683.61,Auto,Paid Off
+2264,656,22859.12,Personal,Paid Off
+2265,656,44761.33,Emergency,Paid Off
+2266,656,27477.41,Debt Consolidation,Paid Off
+2267,656,36893.48,Education,Active
+2268,656,21804.14,Auto,Active
+2269,657,38863.64,Home,Paid Off
+2270,657,27630.06,Home Improvement,Paid Off
+2271,657,16575.38,Business,Active
+2272,657,21313.95,Education,Active
+2273,657,32300.24,Emergency,Active
+2274,657,12171.28,Emergency,Active
+2275,658,4019.02,Green Energy,Paid Off
+2276,658,16198.28,Medical,Active
+2277,660,1468.73,Green Energy,Active
+2278,660,11451.92,Vacation,Active
+2279,660,44683.04,Home Improvement,Paid Off
+2280,660,41849.34,Auto,Paid Off
+2281,660,33579.77,Vacation,Active
+2282,662,28174.49,Green Energy,Paid Off
+2283,663,11052.5,Medical,Paid Off
+2284,663,40177.0,Debt Consolidation,Paid Off
+2285,663,43309.99,Business,Paid Off
+2286,663,33594.13,Debt Consolidation,Active
+2287,663,24089.33,Vacation,Active
+2288,663,14109.55,Vacation,Active
+2289,664,33881.94,Home,Paid Off
+2290,664,12023.92,Debt Consolidation,Paid Off
+2291,664,11126.5,Emergency,Active
+2292,664,16152.78,Emergency,Paid Off
+2293,665,13042.73,Education,Paid Off
+2294,665,9863.35,Education,Active
+2295,665,29811.52,Home,Paid Off
+2296,665,25086.06,Green Energy,Paid Off
+2297,665,14249.17,Home Improvement,Active
+2298,667,10886.03,Emergency,Paid Off
+2299,667,33501.32,Home,Paid Off
+2300,667,27176.22,Education,Active
+2301,667,37104.62,Auto,Active
+2302,667,33186.45,Home Improvement,Paid Off
+2303,667,10532.36,Personal,Paid Off
+2304,667,14692.21,Business,Active
+2305,668,49273.56,Vacation,Active
+2306,669,20597.4,Medical,Paid Off
+2307,669,12102.53,Debt Consolidation,Paid Off
+2308,670,27847.7,Personal,Paid Off
+2309,670,16240.61,Debt Consolidation,Paid Off
+2310,670,32202.05,Education,Active
+2311,672,4279.21,Debt Consolidation,Active
+2312,672,2233.57,Debt Consolidation,Paid Off
+2313,672,38166.07,Personal,Paid Off
+2314,673,2048.34,Personal,Active
+2315,673,49535.37,Personal,Paid Off
+2316,674,27037.21,Auto,Paid Off
+2317,674,33305.12,Vacation,Active
+2318,674,15462.13,Debt Consolidation,Active
+2319,675,31797.56,Medical,Paid Off
+2320,675,35040.88,Debt Consolidation,Paid Off
+2321,675,29530.72,Personal,Active
+2322,675,36654.37,Home,Active
+2323,675,5455.67,Auto,Active
+2324,675,7402.92,Business,Active
+2325,676,6195.47,Green Energy,Paid Off
+2326,676,6710.68,Home Improvement,Active
+2327,676,14726.31,Green Energy,Active
+2328,676,38291.39,Medical,Active
+2329,677,17410.56,Auto,Active
+2330,677,49856.0,Business,Paid Off
+2331,677,41271.92,Business,Paid Off
+2332,677,14393.31,Green Energy,Paid Off
+2333,678,15107.63,Medical,Active
+2334,678,27275.81,Medical,Paid Off
+2335,678,43857.04,Green Energy,Active
+2336,678,20394.71,Home,Paid Off
+2337,678,22476.32,Home,Paid Off
+2338,679,38813.57,Medical,Active
+2339,679,27943.43,Education,Paid Off
+2340,679,12607.97,Green Energy,Paid Off
+2341,682,33930.2,Medical,Paid Off
+2342,682,5245.1,Business,Active
+2343,682,33029.96,Debt Consolidation,Active
+2344,682,42486.34,Home Improvement,Paid Off
+2345,682,43916.18,Personal,Paid Off
+2346,682,6045.13,Business,Paid Off
+2347,682,28309.17,Emergency,Active
+2348,683,47213.35,Medical,Active
+2349,683,5050.57,Emergency,Active
+2350,683,1209.96,Vacation,Active
+2351,684,36022.09,Home,Paid Off
+2352,686,29850.46,Personal,Paid Off
+2353,686,19909.1,Business,Active
+2354,686,6923.57,Personal,Paid Off
+2355,688,14103.18,Emergency,Paid Off
+2356,688,31145.73,Debt Consolidation,Paid Off
+2357,688,34304.42,Home Improvement,Paid Off
+2358,689,40902.62,Emergency,Active
+2359,689,7833.0,Home,Active
+2360,689,35908.94,Green Energy,Paid Off
+2361,689,28966.86,Medical,Paid Off
+2362,690,31829.81,Green Energy,Paid Off
+2363,690,6418.38,Debt Consolidation,Paid Off
+2364,691,30204.06,Debt Consolidation,Paid Off
+2365,691,8650.84,Home,Paid Off
+2366,691,3594.04,Debt Consolidation,Paid Off
+2367,691,17201.93,Business,Paid Off
+2368,692,46459.57,Education,Paid Off
+2369,693,11886.93,Home Improvement,Active
+2370,693,33845.27,Home,Paid Off
+2371,693,30090.68,Business,Paid Off
+2372,694,41104.75,Auto,Active
+2373,694,44977.4,Debt Consolidation,Paid Off
+2374,694,21065.51,Home,Paid Off
+2375,694,31123.98,Vacation,Active
+2376,695,32095.95,Debt Consolidation,Active
+2377,695,12681.39,Medical,Paid Off
+2378,695,46236.62,Green Energy,Paid Off
+2379,695,6927.84,Vacation,Paid Off
+2380,695,38174.9,Debt Consolidation,Paid Off
+2381,695,34363.51,Medical,Paid Off
+2382,695,13877.76,Auto,Active
+2383,696,17161.65,Auto,Active
+2384,696,7848.96,Home Improvement,Active
+2385,696,13109.06,Personal,Active
+2386,697,5653.08,Home Improvement,Active
+2387,697,19370.25,Medical,Paid Off
+2388,697,42974.87,Emergency,Active
+2389,698,48051.91,Personal,Active
+2390,698,36051.42,Debt Consolidation,Active
+2391,698,39456.33,Medical,Paid Off
+2392,698,41751.46,Emergency,Paid Off
+2393,698,10363.13,Personal,Active
+2394,698,19051.63,Emergency,Paid Off
+2395,699,36822.33,Home Improvement,Active
+2396,700,15964.42,Education,Paid Off
+2397,701,48603.23,Vacation,Active
+2398,701,44935.13,Green Energy,Paid Off
+2399,701,38847.7,Home,Active
+2400,701,27195.07,Education,Paid Off
+2401,701,40980.22,Auto,Active
+2402,702,45774.88,Home,Paid Off
+2403,703,45021.66,Auto,Active
+2404,703,39842.83,Debt Consolidation,Paid Off
+2405,703,47747.97,Personal,Paid Off
+2406,705,14065.33,Education,Paid Off
+2407,705,35367.7,Green Energy,Paid Off
+2408,705,40078.67,Green Energy,Active
+2409,705,39427.95,Auto,Active
+2410,705,12223.77,Auto,Active
+2411,705,35628.81,Debt Consolidation,Active
+2412,706,23259.52,Auto,Active
+2413,706,32097.66,Home,Active
+2414,706,43537.34,Education,Paid Off
+2415,707,13532.93,Green Energy,Paid Off
+2416,707,27555.11,Home,Active
+2417,707,17523.43,Green Energy,Paid Off
+2418,707,4080.52,Home Improvement,Active
+2419,707,42920.47,Auto,Paid Off
+2420,708,12112.76,Debt Consolidation,Active
+2421,708,21582.24,Business,Active
+2422,708,33937.14,Debt Consolidation,Active
+2423,708,23387.1,Medical,Active
+2424,708,14423.09,Emergency,Active
+2425,709,21471.67,Business,Active
+2426,709,1833.55,Education,Paid Off
+2427,709,26388.86,Vacation,Active
+2428,709,4979.06,Auto,Paid Off
+2429,709,32477.89,Vacation,Active
+2430,709,47074.42,Debt Consolidation,Paid Off
+2431,710,6604.4,Education,Paid Off
+2432,711,6033.39,Debt Consolidation,Paid Off
+2433,712,17815.01,Green Energy,Paid Off
+2434,712,45090.08,Debt Consolidation,Active
+2435,712,29787.35,Vacation,Active
+2436,713,3213.18,Debt Consolidation,Paid Off
+2437,713,14101.23,Vacation,Paid Off
+2438,715,41995.1,Personal,Active
+2439,715,24232.08,Home Improvement,Active
+2440,715,49979.9,Debt Consolidation,Paid Off
+2441,715,9263.4,Home Improvement,Paid Off
+2442,715,2220.91,Personal,Active
+2443,715,48262.21,Green Energy,Paid Off
+2444,715,39192.46,Debt Consolidation,Active
+2445,716,1622.3,Personal,Active
+2446,717,32778.69,Green Energy,Active
+2447,717,16701.39,Vacation,Paid Off
+2448,717,8765.81,Home Improvement,Active
+2449,717,6651.0,Business,Active
+2450,717,45830.91,Emergency,Paid Off
+2451,718,41215.34,Emergency,Paid Off
+2452,718,48986.68,Debt Consolidation,Active
+2453,718,43412.8,Medical,Paid Off
+2454,719,9884.05,Medical,Active
+2455,719,38030.68,Education,Paid Off
+2456,719,45412.04,Debt Consolidation,Paid Off
+2457,719,10987.29,Home,Active
+2458,721,43921.94,Vacation,Paid Off
+2459,721,35994.68,Green Energy,Active
+2460,721,19004.21,Vacation,Paid Off
+2461,721,21352.79,Home,Active
+2462,721,27457.06,Business,Active
+2463,721,25259.03,Business,Paid Off
+2464,721,4894.85,Emergency,Active
+2465,722,17269.47,Home,Active
+2466,722,38055.71,Personal,Paid Off
+2467,723,8634.35,Home,Paid Off
+2468,723,22663.96,Green Energy,Active
+2469,723,49445.78,Business,Active
+2470,724,7531.29,Auto,Active
+2471,724,17630.71,Auto,Active
+2472,724,22623.86,Debt Consolidation,Paid Off
+2473,725,2468.31,Personal,Active
+2474,726,16883.31,Medical,Paid Off
+2475,726,3740.28,Home,Active
+2476,726,10430.36,Personal,Paid Off
+2477,726,30943.73,Home,Paid Off
+2478,726,4268.6,Personal,Paid Off
+2479,726,35282.12,Home,Paid Off
+2480,726,14613.48,Home,Active
+2481,728,23681.06,Personal,Paid Off
+2482,730,41219.25,Emergency,Active
+2483,731,6220.59,Home,Paid Off
+2484,731,24751.54,Business,Paid Off
+2485,731,7042.36,Medical,Paid Off
+2486,731,29765.79,Debt Consolidation,Paid Off
+2487,731,28512.44,Green Energy,Active
+2488,732,17617.47,Green Energy,Active
+2489,732,41705.54,Debt Consolidation,Active
+2490,732,43815.7,Vacation,Active
+2491,732,6336.08,Emergency,Paid Off
+2492,732,34975.06,Auto,Active
+2493,734,15176.28,Personal,Paid Off
+2494,734,25726.28,Home Improvement,Paid Off
+2495,734,22771.49,Home Improvement,Active
+2496,734,19278.59,Business,Paid Off
+2497,734,27417.05,Home,Active
+2498,734,18630.56,Auto,Active
+2499,734,15357.21,Emergency,Paid Off
+2500,736,44608.76,Education,Paid Off
+2501,736,36410.53,Vacation,Active
+2502,737,14748.32,Auto,Paid Off
+2503,737,4908.9,Green Energy,Active
+2504,738,25697.93,Green Energy,Paid Off
+2505,738,1147.71,Home Improvement,Paid Off
+2506,738,23243.71,Medical,Paid Off
+2507,739,8917.38,Emergency,Active
+2508,739,25317.26,Business,Paid Off
+2509,739,7462.03,Medical,Active
+2510,739,34905.89,Business,Paid Off
+2511,739,26257.18,Home Improvement,Paid Off
+2512,739,40079.22,Personal,Active
+2513,741,42762.23,Emergency,Paid Off
+2514,741,46457.41,Auto,Active
+2515,741,22563.91,Vacation,Active
+2516,741,38687.85,Green Energy,Paid Off
+2517,741,41579.25,Business,Active
+2518,742,26531.79,Business,Paid Off
+2519,742,10675.48,Medical,Paid Off
+2520,742,40360.19,Education,Paid Off
+2521,742,39422.72,Business,Active
+2522,742,39195.51,Green Energy,Active
+2523,742,38175.64,Business,Active
+2524,743,48397.92,Medical,Active
+2525,743,10035.32,Personal,Paid Off
+2526,744,25851.91,Business,Active
+2527,744,8310.35,Business,Paid Off
+2528,744,28273.26,Auto,Paid Off
+2529,744,29181.55,Vacation,Paid Off
+2530,744,4136.12,Auto,Active
+2531,744,6731.55,Home,Paid Off
+2532,745,44683.58,Auto,Paid Off
+2533,745,30866.13,Business,Active
+2534,745,2983.64,Emergency,Paid Off
+2535,745,2021.55,Personal,Paid Off
+2536,745,6770.13,Emergency,Active
+2537,746,40294.07,Education,Active
+2538,746,41091.09,Business,Paid Off
+2539,746,41947.63,Home Improvement,Active
+2540,746,39818.88,Home,Active
+2541,747,5186.78,Auto,Active
+2542,747,34966.87,Home Improvement,Active
+2543,747,49116.17,Auto,Active
+2544,747,4134.14,Education,Paid Off
+2545,749,46632.72,Home,Paid Off
+2546,749,30533.14,Debt Consolidation,Active
+2547,749,15384.05,Business,Paid Off
+2548,750,31185.98,Debt Consolidation,Paid Off
+2549,750,13930.73,Emergency,Active
+2550,750,46324.75,Auto,Active
+2551,750,3310.92,Personal,Active
+2552,750,21320.83,Green Energy,Active
+2553,750,2661.93,Personal,Paid Off
+2554,750,49977.21,Business,Paid Off
+2555,751,21700.58,Personal,Active
+2556,752,25416.72,Debt Consolidation,Active
+2557,752,33737.22,Auto,Active
+2558,755,43888.89,Home Improvement,Paid Off
+2559,755,2730.81,Personal,Paid Off
+2560,755,18597.03,Business,Paid Off
+2561,755,28998.88,Green Energy,Active
+2562,756,20958.46,Home Improvement,Paid Off
+2563,756,44719.12,Vacation,Paid Off
+2564,757,7027.11,Emergency,Active
+2565,757,42864.0,Home,Paid Off
+2566,757,36365.0,Home Improvement,Active
+2567,757,48126.9,Emergency,Active
+2568,758,33473.31,Auto,Active
+2569,758,15858.7,Green Energy,Active
+2570,759,10263.76,Education,Active
+2571,759,35101.03,Personal,Paid Off
+2572,760,6268.15,Auto,Active
+2573,760,21281.11,Auto,Paid Off
+2574,760,11618.69,Medical,Active
+2575,760,46483.89,Home,Paid Off
+2576,760,46857.75,Green Energy,Active
+2577,760,5732.69,Home Improvement,Paid Off
+2578,761,49180.58,Education,Active
+2579,761,29946.21,Home,Paid Off
+2580,761,14258.21,Home,Active
+2581,761,13996.18,Business,Paid Off
+2582,761,2009.09,Home,Paid Off
+2583,761,9588.05,Home Improvement,Paid Off
+2584,761,34925.22,Vacation,Active
+2585,762,38209.43,Medical,Paid Off
+2586,762,11411.74,Auto,Active
+2587,762,8485.96,Education,Paid Off
+2588,763,37780.24,Personal,Paid Off
+2589,764,14607.55,Green Energy,Paid Off
+2590,765,46362.05,Home Improvement,Active
+2591,765,19595.88,Education,Paid Off
+2592,765,37360.99,Medical,Active
+2593,766,42740.1,Home,Active
+2594,766,34846.35,Business,Paid Off
+2595,766,14619.56,Auto,Paid Off
+2596,766,12064.64,Green Energy,Paid Off
+2597,766,11096.65,Emergency,Paid Off
+2598,766,2265.89,Auto,Active
+2599,767,15224.63,Emergency,Paid Off
+2600,767,38137.04,Education,Paid Off
+2601,767,46882.13,Debt Consolidation,Active
+2602,767,7730.75,Debt Consolidation,Active
+2603,767,42724.01,Debt Consolidation,Active
+2604,768,25274.47,Vacation,Paid Off
+2605,768,14579.09,Personal,Paid Off
+2606,768,22135.67,Emergency,Paid Off
+2607,768,34029.81,Auto,Paid Off
+2608,768,4885.49,Home Improvement,Paid Off
+2609,769,4025.37,Education,Active
+2610,769,28809.91,Green Energy,Paid Off
+2611,770,12205.06,Green Energy,Paid Off
+2612,770,37172.49,Green Energy,Active
+2613,771,48196.09,Personal,Paid Off
+2614,772,21422.67,Auto,Active
+2615,772,8424.18,Auto,Active
+2616,772,45446.19,Green Energy,Paid Off
+2617,773,13706.7,Auto,Paid Off
+2618,774,13369.92,Home Improvement,Paid Off
+2619,774,12735.46,Green Energy,Active
+2620,774,22759.29,Personal,Paid Off
+2621,774,25103.36,Auto,Active
+2622,774,19854.23,Debt Consolidation,Active
+2623,775,19563.85,Education,Paid Off
+2624,775,6474.56,Vacation,Active
+2625,775,10504.34,Business,Active
+2626,775,6453.09,Business,Paid Off
+2627,775,7422.61,Vacation,Paid Off
+2628,776,20973.29,Home,Active
+2629,776,39429.62,Home Improvement,Paid Off
+2630,776,27571.88,Emergency,Paid Off
+2631,776,49917.85,Medical,Paid Off
+2632,777,7277.09,Emergency,Active
+2633,777,19764.11,Green Energy,Active
+2634,777,44891.47,Medical,Paid Off
+2635,778,38860.45,Emergency,Active
+2636,779,6189.45,Education,Paid Off
+2637,779,44783.11,Medical,Paid Off
+2638,780,15185.66,Debt Consolidation,Paid Off
+2639,780,27570.3,Education,Paid Off
+2640,780,18910.51,Education,Paid Off
+2641,780,32098.68,Emergency,Paid Off
+2642,780,34627.85,Emergency,Active
+2643,780,7975.54,Vacation,Paid Off
+2644,780,44084.13,Education,Active
+2645,782,47291.67,Medical,Paid Off
+2646,782,27493.84,Emergency,Active
+2647,782,35281.44,Education,Active
+2648,782,27878.28,Education,Active
+2649,782,4019.79,Personal,Active
+2650,783,38600.56,Vacation,Active
+2651,783,11151.35,Vacation,Paid Off
+2652,783,17770.32,Auto,Paid Off
+2653,783,5018.33,Education,Active
+2654,783,12484.99,Medical,Paid Off
+2655,784,27366.17,Home,Active
+2656,784,6983.57,Vacation,Active
+2657,784,39554.02,Education,Active
+2658,784,40321.58,Green Energy,Active
+2659,785,5701.91,Auto,Paid Off
+2660,785,16329.58,Emergency,Active
+2661,786,4717.51,Green Energy,Active
+2662,786,33560.66,Home,Active
+2663,787,49549.91,Medical,Active
+2664,787,21271.33,Emergency,Active
+2665,787,1247.31,Home,Active
+2666,788,32993.35,Education,Paid Off
+2667,788,28469.77,Auto,Paid Off
+2668,789,9710.18,Emergency,Paid Off
+2669,790,25131.65,Personal,Paid Off
+2670,790,35264.58,Emergency,Paid Off
+2671,790,38200.3,Debt Consolidation,Active
+2672,790,45944.34,Debt Consolidation,Active
+2673,790,13772.92,Green Energy,Paid Off
+2674,790,7805.8,Emergency,Paid Off
+2675,790,9132.27,Vacation,Active
+2676,791,1596.36,Education,Active
+2677,791,42440.32,Personal,Active
+2678,791,19937.74,Home Improvement,Paid Off
+2679,792,13720.8,Green Energy,Active
+2680,792,48116.87,Vacation,Active
+2681,792,23600.69,Green Energy,Active
+2682,792,30912.54,Education,Paid Off
+2683,793,47587.24,Medical,Active
+2684,793,16846.01,Home,Active
+2685,793,45102.35,Home Improvement,Paid Off
+2686,794,22120.27,Home,Active
+2687,795,4948.22,Green Energy,Paid Off
+2688,795,47454.63,Business,Active
+2689,795,30074.31,Emergency,Paid Off
+2690,795,31990.08,Business,Active
+2691,796,31816.35,Vacation,Active
+2692,796,19534.54,Home Improvement,Active
+2693,796,36060.04,Home Improvement,Active
+2694,796,47877.34,Medical,Paid Off
+2695,796,19340.15,Home,Active
+2696,796,41611.86,Green Energy,Active
+2697,797,40096.76,Green Energy,Paid Off
+2698,797,42928.79,Home Improvement,Active
+2699,797,26748.0,Auto,Paid Off
+2700,797,15635.45,Education,Active
+2701,798,28712.1,Auto,Paid Off
+2702,798,46837.18,Debt Consolidation,Paid Off
+2703,798,35792.46,Education,Active
+2704,798,26252.87,Home Improvement,Paid Off
+2705,798,20069.74,Education,Paid Off
+2706,799,9100.87,Education,Active
+2707,799,36577.1,Medical,Paid Off
+2708,799,24594.97,Business,Active
+2709,799,27863.25,Debt Consolidation,Active
+2710,799,9033.7,Auto,Paid Off
+2711,799,36598.52,Vacation,Paid Off
+2712,799,7733.04,Debt Consolidation,Active
+2713,800,46723.65,Personal,Paid Off
+2714,800,9417.83,Medical,Paid Off
+2715,800,16294.47,Green Energy,Paid Off
+2716,800,40074.87,Emergency,Paid Off
+2717,800,27446.98,Vacation,Paid Off
+2718,800,4553.83,Medical,Paid Off
+2719,800,21666.56,Medical,Active
+2720,801,28288.31,Vacation,Paid Off
+2721,801,9312.49,Home Improvement,Paid Off
+2722,801,12505.95,Education,Active
+2723,801,27257.57,Vacation,Paid Off
+2724,801,10336.27,Home Improvement,Active
+2725,802,26610.37,Vacation,Paid Off
+2726,802,48770.18,Auto,Active
+2727,802,8328.89,Auto,Paid Off
+2728,802,48468.36,Business,Active
+2729,802,42953.08,Business,Active
+2730,802,19500.57,Home,Active
+2731,802,3961.14,Vacation,Paid Off
+2732,803,1391.35,Emergency,Paid Off
+2733,804,1801.56,Medical,Paid Off
+2734,804,18145.01,Home,Active
+2735,804,46282.38,Green Energy,Paid Off
+2736,804,41263.57,Education,Active
+2737,804,44011.94,Home Improvement,Paid Off
+2738,804,38432.36,Green Energy,Active
+2739,804,45585.08,Home,Paid Off
+2740,805,14064.41,Emergency,Active
+2741,805,49719.17,Emergency,Active
+2742,805,6322.01,Home Improvement,Paid Off
+2743,805,30594.36,Personal,Paid Off
+2744,805,20519.16,Business,Active
+2745,805,30827.69,Home Improvement,Paid Off
+2746,806,1909.84,Emergency,Paid Off
+2747,806,24539.81,Medical,Paid Off
+2748,807,24629.2,Auto,Active
+2749,807,28605.05,Debt Consolidation,Active
+2750,807,10880.53,Education,Active
+2751,807,4011.64,Home Improvement,Paid Off
+2752,807,46987.95,Medical,Paid Off
+2753,807,36970.5,Green Energy,Paid Off
+2754,807,35067.16,Home,Paid Off
+2755,808,8654.5,Education,Active
+2756,808,19658.71,Business,Paid Off
+2757,808,8736.48,Green Energy,Paid Off
+2758,808,46686.19,Emergency,Active
+2759,808,15039.29,Emergency,Paid Off
+2760,808,30957.05,Home,Active
+2761,808,2792.13,Emergency,Paid Off
+2762,809,18472.44,Debt Consolidation,Paid Off
+2763,809,23424.58,Vacation,Paid Off
+2764,809,25159.17,Home,Active
+2765,809,35355.9,Emergency,Active
+2766,809,32240.96,Vacation,Paid Off
+2767,810,22789.28,Vacation,Paid Off
+2768,811,20458.17,Green Energy,Active
+2769,811,31272.79,Debt Consolidation,Paid Off
+2770,811,32929.91,Medical,Active
+2771,811,18260.18,Debt Consolidation,Paid Off
+2772,813,4240.42,Business,Active
+2773,813,46520.74,Green Energy,Active
+2774,813,44958.74,Business,Active
+2775,813,44857.38,Personal,Active
+2776,813,27139.9,Auto,Active
+2777,813,9660.34,Home,Paid Off
+2778,814,36860.95,Personal,Active
+2779,814,4236.89,Home,Active
+2780,814,36935.48,Green Energy,Active
+2781,814,32645.82,Home Improvement,Active
+2782,814,29518.42,Education,Active
+2783,814,7044.14,Green Energy,Paid Off
+2784,815,6779.24,Business,Paid Off
+2785,815,15167.36,Medical,Paid Off
+2786,815,31341.29,Green Energy,Paid Off
+2787,815,40354.64,Vacation,Paid Off
+2788,816,13828.94,Personal,Paid Off
+2789,816,42807.06,Debt Consolidation,Paid Off
+2790,816,39449.13,Personal,Paid Off
+2791,817,15434.64,Auto,Paid Off
+2792,817,2902.25,Business,Paid Off
+2793,817,4144.27,Medical,Active
+2794,818,32752.0,Business,Active
+2795,818,23349.13,Home Improvement,Active
+2796,818,39365.07,Emergency,Paid Off
+2797,818,29703.81,Education,Active
+2798,819,30272.42,Home Improvement,Active
+2799,819,27526.47,Green Energy,Paid Off
+2800,819,37509.31,Auto,Active
+2801,819,23217.85,Business,Paid Off
+2802,819,29357.56,Vacation,Paid Off
+2803,820,14191.09,Personal,Paid Off
+2804,820,17392.99,Green Energy,Active
+2805,820,47946.72,Green Energy,Active
+2806,820,46150.82,Personal,Active
+2807,820,30836.07,Medical,Paid Off
+2808,821,24482.44,Home,Active
+2809,821,21025.62,Home Improvement,Active
+2810,822,35587.88,Green Energy,Paid Off
+2811,822,34814.52,Debt Consolidation,Active
+2812,822,47745.1,Vacation,Active
+2813,822,44969.59,Vacation,Paid Off
+2814,822,14240.61,Home Improvement,Active
+2815,822,37604.55,Medical,Paid Off
+2816,822,24842.89,Green Energy,Active
+2817,823,44850.92,Education,Active
+2818,823,23097.57,Green Energy,Active
+2819,823,31983.65,Home Improvement,Active
+2820,823,49172.55,Personal,Active
+2821,823,48189.5,Emergency,Paid Off
+2822,823,27864.12,Medical,Active
+2823,823,36199.19,Medical,Active
+2824,824,22144.87,Home Improvement,Active
+2825,824,48405.25,Auto,Paid Off
+2826,824,17061.78,Home,Active
+2827,824,7275.86,Green Energy,Paid Off
+2828,824,1813.14,Home,Active
+2829,824,48340.37,Home Improvement,Paid Off
+2830,825,6781.88,Emergency,Active
+2831,825,38823.26,Vacation,Active
+2832,825,26086.67,Home Improvement,Active
+2833,826,3153.67,Home,Active
+2834,826,8212.74,Emergency,Paid Off
+2835,826,18892.95,Medical,Active
+2836,827,4616.97,Vacation,Active
+2837,827,8675.77,Emergency,Active
+2838,827,3164.72,Emergency,Paid Off
+2839,828,26922.05,Medical,Paid Off
+2840,828,26198.52,Education,Paid Off
+2841,829,8925.41,Home Improvement,Paid Off
+2842,830,39232.05,Vacation,Paid Off
+2843,830,49399.96,Auto,Paid Off
+2844,830,48463.12,Emergency,Paid Off
+2845,830,7026.43,Education,Paid Off
+2846,831,30773.82,Medical,Paid Off
+2847,831,8309.73,Education,Active
+2848,831,28580.89,Personal,Active
+2849,831,15052.53,Green Energy,Active
+2850,831,1724.47,Home Improvement,Paid Off
+2851,831,18665.38,Auto,Active
+2852,832,33713.64,Auto,Paid Off
+2853,835,31270.16,Home,Active
+2854,835,42696.05,Education,Paid Off
+2855,835,15979.05,Education,Active
+2856,835,34991.45,Home,Paid Off
+2857,836,33567.94,Personal,Active
+2858,836,20872.42,Home Improvement,Paid Off
+2859,836,26455.49,Debt Consolidation,Active
+2860,838,22712.37,Home Improvement,Paid Off
+2861,838,17861.82,Debt Consolidation,Paid Off
+2862,838,18642.23,Home,Active
+2863,838,36565.95,Medical,Paid Off
+2864,838,38875.68,Medical,Active
+2865,839,4984.41,Education,Paid Off
+2866,840,22884.72,Emergency,Paid Off
+2867,840,5586.46,Education,Active
+2868,840,30344.18,Business,Paid Off
+2869,840,46961.16,Vacation,Paid Off
+2870,840,38330.69,Vacation,Paid Off
+2871,841,47720.44,Personal,Paid Off
+2872,841,10186.64,Debt Consolidation,Active
+2873,841,9564.27,Education,Paid Off
+2874,842,10138.68,Education,Paid Off
+2875,842,49002.61,Home,Active
+2876,842,36644.58,Emergency,Active
+2877,843,25695.29,Home Improvement,Active
+2878,843,33363.18,Personal,Active
+2879,843,39494.2,Home,Active
+2880,843,27579.84,Business,Paid Off
+2881,843,9848.44,Business,Active
+2882,843,2757.56,Medical,Active
+2883,843,37940.5,Vacation,Paid Off
+2884,844,36794.91,Medical,Active
+2885,844,1864.64,Auto,Active
+2886,844,14141.06,Medical,Active
+2887,844,12636.06,Medical,Active
+2888,844,1659.21,Business,Paid Off
+2889,844,11991.5,Home Improvement,Paid Off
+2890,844,36511.73,Debt Consolidation,Paid Off
+2891,845,41981.19,Education,Paid Off
+2892,845,30037.65,Emergency,Paid Off
+2893,845,15407.91,Home,Active
+2894,845,30410.27,Medical,Active
+2895,845,7507.56,Home,Paid Off
+2896,845,30178.39,Home,Active
+2897,845,10942.53,Auto,Active
+2898,847,2060.49,Home Improvement,Paid Off
+2899,847,35808.42,Vacation,Active
+2900,847,41829.76,Debt Consolidation,Paid Off
+2901,847,27407.47,Debt Consolidation,Paid Off
+2902,847,4143.79,Home,Paid Off
+2903,848,36496.69,Green Energy,Paid Off
+2904,848,10622.08,Auto,Paid Off
+2905,848,7797.05,Home,Active
+2906,848,4155.8,Business,Paid Off
+2907,848,27163.5,Emergency,Paid Off
+2908,849,6241.92,Home Improvement,Paid Off
+2909,849,10011.8,Medical,Paid Off
+2910,849,46510.69,Auto,Active
+2911,849,26658.04,Auto,Paid Off
+2912,849,20878.23,Green Energy,Active
+2913,849,5553.24,Auto,Paid Off
+2914,850,32380.44,Vacation,Active
+2915,850,4276.99,Home,Paid Off
+2916,850,24865.7,Education,Paid Off
+2917,850,10285.81,Personal,Active
+2918,851,36780.43,Home Improvement,Active
+2919,852,2654.44,Personal,Paid Off
+2920,853,29295.13,Auto,Paid Off
+2921,853,11123.31,Emergency,Paid Off
+2922,853,9866.57,Vacation,Active
+2923,853,14562.16,Auto,Active
+2924,853,13247.01,Business,Paid Off
+2925,853,19776.28,Debt Consolidation,Active
+2926,853,45196.08,Auto,Active
+2927,855,12425.1,Vacation,Active
+2928,855,43158.12,Emergency,Active
+2929,855,4694.43,Auto,Paid Off
+2930,855,29556.46,Green Energy,Paid Off
+2931,855,34113.87,Emergency,Paid Off
+2932,857,16884.02,Emergency,Active
+2933,857,11022.56,Auto,Active
+2934,857,8132.95,Vacation,Active
+2935,857,48936.95,Home Improvement,Paid Off
+2936,857,30436.48,Debt Consolidation,Active
+2937,857,46611.7,Vacation,Active
+2938,857,17682.11,Vacation,Paid Off
+2939,858,12843.98,Auto,Active
+2940,858,33282.96,Vacation,Paid Off
+2941,858,17440.64,Debt Consolidation,Paid Off
+2942,859,1954.78,Personal,Active
+2943,859,31937.87,Home Improvement,Paid Off
+2944,859,14966.49,Vacation,Paid Off
+2945,860,7137.0,Medical,Active
+2946,860,44979.02,Emergency,Active
+2947,860,39907.7,Home Improvement,Active
+2948,861,22653.62,Personal,Paid Off
+2949,861,47497.59,Emergency,Paid Off
+2950,861,9837.45,Education,Active
+2951,861,38637.94,Business,Paid Off
+2952,861,29074.46,Green Energy,Active
+2953,862,5446.43,Home,Active
+2954,863,30447.99,Green Energy,Paid Off
+2955,863,2584.89,Home Improvement,Paid Off
+2956,863,5157.45,Medical,Active
+2957,863,23069.96,Emergency,Paid Off
+2958,863,20066.45,Emergency,Paid Off
+2959,863,2757.15,Home Improvement,Active
+2960,863,25043.98,Medical,Active
+2961,864,8121.77,Personal,Paid Off
+2962,865,2645.62,Green Energy,Active
+2963,865,34879.09,Vacation,Active
+2964,866,8427.45,Home Improvement,Active
+2965,866,9476.59,Debt Consolidation,Active
+2966,866,45310.73,Medical,Paid Off
+2967,866,10725.51,Education,Paid Off
+2968,867,38928.55,Auto,Paid Off
+2969,868,22450.42,Debt Consolidation,Active
+2970,868,21381.31,Home,Active
+2971,868,46594.8,Home,Paid Off
+2972,868,25141.43,Medical,Paid Off
+2973,868,3167.22,Education,Active
+2974,868,17263.47,Personal,Paid Off
+2975,868,27214.25,Business,Active
+2976,869,47121.32,Personal,Active
+2977,869,27559.1,Personal,Active
+2978,869,37053.69,Auto,Active
+2979,869,38382.04,Auto,Active
+2980,870,42823.31,Medical,Paid Off
+2981,870,28810.57,Debt Consolidation,Active
+2982,870,9980.49,Home,Active
+2983,870,9380.08,Education,Paid Off
+2984,873,12446.81,Debt Consolidation,Paid Off
+2985,873,39545.94,Education,Active
+2986,873,19915.46,Emergency,Paid Off
+2987,873,31921.99,Debt Consolidation,Active
+2988,873,39384.79,Personal,Paid Off
+2989,873,5763.9,Personal,Active
+2990,874,35085.57,Debt Consolidation,Paid Off
+2991,874,1330.92,Home,Active
+2992,874,21391.37,Green Energy,Paid Off
+2993,875,14768.55,Business,Active
+2994,875,5991.15,Auto,Active
+2995,875,19933.14,Debt Consolidation,Active
+2996,875,23606.82,Green Energy,Active
+2997,875,45997.54,Education,Paid Off
+2998,876,9204.22,Personal,Paid Off
+2999,876,14867.49,Business,Active
+3000,876,17790.12,Home Improvement,Paid Off
+3001,876,35442.45,Business,Active
+3002,876,30014.53,Vacation,Paid Off
+3003,876,39178.79,Education,Paid Off
+3004,877,4100.28,Medical,Paid Off
+3005,877,49279.27,Emergency,Active
+3006,877,49769.95,Home Improvement,Paid Off
+3007,877,5247.29,Debt Consolidation,Paid Off
+3008,877,12767.01,Vacation,Paid Off
+3009,877,41817.92,Debt Consolidation,Active
+3010,877,33832.82,Vacation,Active
+3011,878,14825.09,Medical,Paid Off
+3012,879,22067.38,Personal,Active
+3013,879,2947.97,Home,Active
+3014,879,38578.97,Home,Active
+3015,879,22864.53,Business,Active
+3016,879,15927.92,Auto,Paid Off
+3017,880,2043.95,Debt Consolidation,Active
+3018,880,38125.02,Business,Paid Off
+3019,880,8768.02,Personal,Active
+3020,880,5548.22,Medical,Paid Off
+3021,880,44864.25,Home,Active
+3022,880,29184.84,Personal,Paid Off
+3023,881,17973.09,Personal,Active
+3024,881,12606.51,Education,Active
+3025,882,27629.61,Home Improvement,Active
+3026,882,28401.56,Medical,Active
+3027,883,19138.5,Emergency,Paid Off
+3028,883,28290.35,Debt Consolidation,Active
+3029,883,6317.51,Debt Consolidation,Paid Off
+3030,883,34402.51,Home Improvement,Paid Off
+3031,883,34668.2,Green Energy,Paid Off
+3032,884,33715.39,Auto,Paid Off
+3033,884,34073.96,Debt Consolidation,Paid Off
+3034,885,42498.54,Home,Active
+3035,885,30417.23,Medical,Paid Off
+3036,885,9833.75,Vacation,Paid Off
+3037,885,42435.53,Business,Active
+3038,885,35413.35,Emergency,Active
+3039,885,19836.72,Personal,Paid Off
+3040,886,23133.91,Education,Active
+3041,886,35778.6,Home,Paid Off
+3042,886,13246.86,Business,Active
+3043,886,25160.27,Home,Paid Off
+3044,886,45228.59,Business,Paid Off
+3045,888,38902.5,Personal,Active
+3046,888,9899.83,Medical,Active
+3047,888,3854.76,Home Improvement,Paid Off
+3048,888,28997.05,Vacation,Active
+3049,888,10644.75,Green Energy,Active
+3050,888,5984.08,Auto,Paid Off
+3051,888,48113.75,Auto,Active
+3052,889,1903.72,Debt Consolidation,Paid Off
+3053,889,18982.65,Emergency,Paid Off
+3054,889,36585.41,Home,Active
+3055,889,44897.45,Personal,Active
+3056,889,34361.09,Green Energy,Active
+3057,890,12493.58,Home,Active
+3058,890,2356.6,Auto,Paid Off
+3059,891,1493.74,Emergency,Active
+3060,891,32803.38,Home,Active
+3061,892,11640.66,Green Energy,Paid Off
+3062,893,32331.44,Vacation,Paid Off
+3063,893,24816.45,Home,Active
+3064,893,38685.83,Home,Active
+3065,893,30852.35,Home Improvement,Active
+3066,893,32799.02,Home Improvement,Active
+3067,893,20233.03,Emergency,Paid Off
+3068,894,28809.54,Auto,Paid Off
+3069,894,14071.81,Auto,Active
+3070,894,7657.54,Business,Active
+3071,894,23001.26,Debt Consolidation,Paid Off
+3072,894,24696.7,Business,Paid Off
+3073,895,4548.6,Business,Paid Off
+3074,895,5501.99,Auto,Paid Off
+3075,895,30987.27,Vacation,Paid Off
+3076,895,14009.01,Vacation,Paid Off
+3077,895,7410.56,Vacation,Active
+3078,895,40035.18,Education,Active
+3079,895,32003.81,Personal,Paid Off
+3080,896,25444.78,Home Improvement,Active
+3081,896,13223.67,Home Improvement,Paid Off
+3082,896,40890.44,Home Improvement,Paid Off
+3083,896,19799.06,Debt Consolidation,Paid Off
+3084,896,44925.66,Emergency,Paid Off
+3085,897,16603.82,Vacation,Paid Off
+3086,897,45502.27,Medical,Paid Off
+3087,897,31958.59,Education,Active
+3088,897,6989.3,Emergency,Active
+3089,898,48630.94,Vacation,Active
+3090,898,20553.89,Green Energy,Active
+3091,898,27147.29,Vacation,Paid Off
+3092,898,40119.62,Home Improvement,Paid Off
+3093,898,1645.88,Emergency,Active
+3094,898,41525.16,Medical,Active
+3095,899,42134.24,Green Energy,Paid Off
+3096,899,41711.21,Home,Active
+3097,899,35134.66,Auto,Paid Off
+3098,901,8138.78,Home Improvement,Active
+3099,901,34341.0,Home,Active
+3100,901,47116.03,Business,Paid Off
+3101,901,27016.23,Business,Paid Off
+3102,901,40121.8,Personal,Paid Off
+3103,901,8907.52,Education,Active
+3104,901,38431.08,Auto,Active
+3105,902,10168.56,Auto,Paid Off
+3106,902,8900.02,Medical,Active
+3107,903,23241.23,Vacation,Paid Off
+3108,903,9668.43,Green Energy,Active
+3109,903,49634.97,Education,Active
+3110,904,37774.09,Auto,Paid Off
+3111,905,10418.56,Home Improvement,Active
+3112,905,13608.0,Medical,Active
+3113,905,4751.44,Home,Paid Off
+3114,905,44986.42,Green Energy,Active
+3115,906,46973.86,Auto,Active
+3116,906,2647.66,Home,Active
+3117,906,32209.05,Auto,Paid Off
+3118,906,31967.76,Education,Paid Off
+3119,906,23073.6,Emergency,Active
+3120,906,22189.84,Green Energy,Active
+3121,906,14208.36,Green Energy,Active
+3122,907,45000.42,Green Energy,Paid Off
+3123,908,32460.58,Home,Active
+3124,908,10335.0,Medical,Paid Off
+3125,909,5760.88,Auto,Paid Off
+3126,909,48703.63,Education,Paid Off
+3127,909,7497.24,Business,Active
+3128,909,12775.96,Medical,Active
+3129,910,38290.26,Green Energy,Active
+3130,910,48928.58,Personal,Active
+3131,910,15662.78,Home,Active
+3132,910,38578.76,Emergency,Paid Off
+3133,911,2453.69,Debt Consolidation,Active
+3134,911,22003.41,Home,Active
+3135,911,12547.68,Emergency,Paid Off
+3136,912,29049.81,Home,Paid Off
+3137,912,43156.47,Vacation,Active
+3138,912,24438.5,Business,Paid Off
+3139,912,12596.7,Education,Paid Off
+3140,912,14935.04,Business,Active
+3141,912,33235.24,Personal,Paid Off
+3142,913,24616.53,Home,Active
+3143,913,33766.66,Education,Active
+3144,913,9494.95,Vacation,Paid Off
+3145,913,32259.45,Emergency,Paid Off
+3146,913,43181.41,Green Energy,Paid Off
+3147,913,18526.41,Vacation,Active
+3148,914,14026.14,Home,Paid Off
+3149,914,24697.73,Education,Active
+3150,914,22605.05,Vacation,Paid Off
+3151,915,1432.5,Education,Paid Off
+3152,915,18187.19,Auto,Active
+3153,915,12751.48,Home,Paid Off
+3154,915,28038.98,Personal,Paid Off
+3155,915,15378.36,Personal,Active
+3156,915,38604.1,Vacation,Active
+3157,916,20638.99,Personal,Active
+3158,916,1569.51,Education,Active
+3159,916,43694.09,Auto,Active
+3160,917,15429.87,Business,Active
+3161,917,30265.32,Home,Active
+3162,917,13768.38,Emergency,Paid Off
+3163,917,38104.72,Green Energy,Paid Off
+3164,917,42957.47,Green Energy,Paid Off
+3165,917,48621.24,Home Improvement,Active
+3166,918,9683.48,Education,Paid Off
+3167,918,8821.46,Personal,Active
+3168,918,13162.2,Home Improvement,Active
+3169,918,45035.01,Home,Paid Off
+3170,918,23771.19,Home,Active
+3171,918,3267.72,Home,Paid Off
+3172,918,14063.0,Medical,Active
+3173,919,9324.68,Green Energy,Active
+3174,919,21200.11,Education,Active
+3175,920,18365.01,Business,Paid Off
+3176,920,10164.04,Personal,Active
+3177,920,23380.01,Business,Paid Off
+3178,921,17938.16,Education,Paid Off
+3179,921,36531.67,Auto,Active
+3180,921,1344.38,Home,Active
+3181,921,3187.16,Home Improvement,Paid Off
+3182,923,20525.79,Business,Active
+3183,923,14222.41,Debt Consolidation,Active
+3184,923,39538.13,Personal,Paid Off
+3185,924,26799.44,Vacation,Active
+3186,924,30556.53,Education,Paid Off
+3187,924,36226.9,Education,Active
+3188,924,46058.65,Home Improvement,Active
+3189,924,16312.14,Emergency,Active
+3190,925,17991.97,Medical,Paid Off
+3191,925,28624.57,Vacation,Active
+3192,925,10286.51,Home Improvement,Paid Off
+3193,925,4507.62,Auto,Paid Off
+3194,925,40677.94,Medical,Paid Off
+3195,925,36377.33,Auto,Active
+3196,928,30002.09,Auto,Paid Off
+3197,928,43442.51,Education,Active
+3198,929,4449.41,Education,Active
+3199,929,21415.56,Personal,Active
+3200,930,47819.62,Business,Active
+3201,930,31072.76,Education,Active
+3202,930,23805.48,Emergency,Active
+3203,930,48161.02,Medical,Active
+3204,931,44792.82,Vacation,Active
+3205,931,34331.72,Debt Consolidation,Active
+3206,931,5749.74,Personal,Active
+3207,931,48522.83,Home Improvement,Paid Off
+3208,931,4422.05,Vacation,Active
+3209,931,10618.84,Home Improvement,Active
+3210,931,31505.5,Home Improvement,Paid Off
+3211,932,42696.62,Business,Active
+3212,932,1957.4,Home Improvement,Paid Off
+3213,932,34682.29,Medical,Active
+3214,933,20326.72,Green Energy,Active
+3215,933,43037.82,Home Improvement,Paid Off
+3216,933,16904.41,Green Energy,Active
+3217,933,9923.64,Auto,Active
+3218,933,1637.24,Debt Consolidation,Paid Off
+3219,934,14641.24,Debt Consolidation,Active
+3220,934,32448.3,Education,Active
+3221,934,42052.0,Emergency,Paid Off
+3222,934,33010.18,Medical,Active
+3223,934,21446.73,Emergency,Active
+3224,934,4114.48,Home Improvement,Paid Off
+3225,935,20632.79,Personal,Active
+3226,935,2229.15,Education,Active
+3227,935,23726.02,Vacation,Active
+3228,935,10114.4,Education,Active
+3229,935,5172.64,Education,Paid Off
+3230,935,36336.26,Auto,Paid Off
+3231,935,40951.9,Auto,Active
+3232,936,29596.28,Personal,Active
+3233,936,49677.56,Auto,Active
+3234,936,32770.76,Emergency,Active
+3235,936,3511.04,Education,Paid Off
+3236,936,10567.24,Education,Paid Off
+3237,936,23998.14,Auto,Active
+3238,938,30194.06,Education,Active
+3239,938,24283.03,Auto,Paid Off
+3240,938,47033.38,Personal,Active
+3241,938,36972.42,Education,Active
+3242,938,36909.4,Education,Paid Off
+3243,938,19247.51,Home,Active
+3244,939,37139.53,Medical,Paid Off
+3245,940,9262.5,Auto,Paid Off
+3246,941,3181.11,Education,Paid Off
+3247,941,36706.45,Debt Consolidation,Paid Off
+3248,943,14708.24,Auto,Active
+3249,943,33670.95,Medical,Paid Off
+3250,943,20996.25,Vacation,Paid Off
+3251,944,43154.33,Green Energy,Paid Off
+3252,944,14226.87,Auto,Active
+3253,944,19128.03,Green Energy,Active
+3254,944,29668.0,Auto,Paid Off
+3255,944,23287.05,Personal,Active
+3256,945,8596.85,Personal,Active
+3257,945,43332.3,Medical,Paid Off
+3258,945,14511.07,Home Improvement,Active
+3259,945,5455.29,Vacation,Paid Off
+3260,945,3898.71,Home Improvement,Active
+3261,946,12308.46,Green Energy,Paid Off
+3262,946,1069.56,Personal,Active
+3263,946,24824.97,Home,Paid Off
+3264,946,43116.74,Personal,Active
+3265,946,36790.57,Personal,Paid Off
+3266,946,13595.07,Home,Active
+3267,946,22433.79,Home Improvement,Active
+3268,947,42683.41,Personal,Active
+3269,947,46002.12,Business,Active
+3270,947,3046.57,Business,Active
+3271,948,37768.05,Medical,Paid Off
+3272,948,33720.62,Medical,Active
+3273,948,38445.53,Business,Active
+3274,948,16893.47,Medical,Paid Off
+3275,949,26188.07,Medical,Active
+3276,949,39012.04,Emergency,Active
+3277,949,15060.53,Auto,Paid Off
+3278,950,3728.38,Home Improvement,Active
+3279,951,15028.04,Education,Paid Off
+3280,951,47180.2,Green Energy,Active
+3281,951,30636.47,Home Improvement,Paid Off
+3282,951,7581.55,Debt Consolidation,Paid Off
+3283,951,17083.44,Green Energy,Active
+3284,952,28109.96,Education,Paid Off
+3285,952,32888.96,Medical,Active
+3286,952,31552.35,Emergency,Paid Off
+3287,953,20752.5,Emergency,Paid Off
+3288,953,8431.26,Medical,Paid Off
+3289,953,42786.26,Home Improvement,Paid Off
+3290,954,28489.07,Green Energy,Active
+3291,955,42413.91,Home,Active
+3292,955,4269.51,Green Energy,Paid Off
+3293,955,3609.09,Education,Active
+3294,955,38051.73,Business,Active
+3295,955,14746.55,Education,Paid Off
+3296,956,21480.41,Business,Active
+3297,956,24857.62,Emergency,Paid Off
+3298,956,26160.47,Green Energy,Active
+3299,956,27464.25,Business,Active
+3300,956,22974.33,Debt Consolidation,Paid Off
+3301,956,4203.62,Home,Paid Off
+3302,956,11939.13,Education,Active
+3303,957,34005.34,Home Improvement,Active
+3304,957,9229.09,Green Energy,Paid Off
+3305,957,39543.01,Home,Paid Off
+3306,957,19305.88,Medical,Paid Off
+3307,958,15152.04,Personal,Paid Off
+3308,958,33480.46,Emergency,Paid Off
+3309,958,48404.32,Vacation,Active
+3310,959,44775.95,Home,Paid Off
+3311,959,15181.02,Medical,Paid Off
+3312,959,17111.95,Green Energy,Paid Off
+3313,959,35457.13,Personal,Active
+3314,959,1810.93,Business,Paid Off
+3315,959,48238.92,Home,Active
+3316,960,26198.79,Debt Consolidation,Paid Off
+3317,960,7880.5,Auto,Paid Off
+3318,960,40630.24,Emergency,Active
+3319,960,44631.33,Auto,Paid Off
+3320,960,18202.02,Debt Consolidation,Active
+3321,961,22900.41,Green Energy,Paid Off
+3322,961,34806.38,Medical,Active
+3323,961,47478.1,Vacation,Paid Off
+3324,961,12997.95,Green Energy,Active
+3325,961,13565.82,Debt Consolidation,Active
+3326,961,26902.57,Education,Active
+3327,962,29640.72,Auto,Active
+3328,962,20594.09,Home Improvement,Paid Off
+3329,962,47892.17,Debt Consolidation,Active
+3330,962,27290.25,Personal,Active
+3331,962,31089.56,Home,Paid Off
+3332,964,18354.45,Business,Paid Off
+3333,964,31190.61,Education,Active
+3334,964,26427.43,Vacation,Paid Off
+3335,964,15032.08,Home Improvement,Active
+3336,964,33763.73,Business,Paid Off
+3337,964,25508.91,Emergency,Active
+3338,965,34339.7,Personal,Active
+3339,965,12668.66,Business,Paid Off
+3340,965,37627.33,Education,Paid Off
+3341,965,38706.66,Business,Paid Off
+3342,966,19029.2,Auto,Active
+3343,966,40242.09,Green Energy,Paid Off
+3344,968,37781.1,Home,Paid Off
+3345,968,38065.42,Debt Consolidation,Active
+3346,969,12039.2,Green Energy,Paid Off
+3347,969,45769.5,Home Improvement,Paid Off
+3348,969,41094.96,Auto,Active
+3349,969,26874.84,Auto,Paid Off
+3350,969,9120.39,Home,Paid Off
+3351,969,7439.74,Auto,Paid Off
+3352,970,4179.82,Home Improvement,Active
+3353,970,3559.45,Home,Paid Off
+3354,970,7656.54,Business,Paid Off
+3355,970,39734.08,Education,Paid Off
+3356,970,26811.25,Education,Paid Off
+3357,970,2437.75,Green Energy,Paid Off
+3358,971,21312.9,Green Energy,Active
+3359,971,38564.31,Business,Paid Off
+3360,971,7087.61,Business,Paid Off
+3361,971,33047.34,Auto,Active
+3362,971,29198.95,Education,Active
+3363,972,7417.14,Home Improvement,Paid Off
+3364,972,21500.95,Green Energy,Active
+3365,972,12933.76,Debt Consolidation,Paid Off
+3366,972,5048.25,Education,Active
+3367,972,5029.48,Vacation,Paid Off
+3368,972,31945.62,Medical,Active
+3369,972,36843.44,Business,Active
+3370,973,33914.15,Personal,Paid Off
+3371,974,30330.68,Home Improvement,Active
+3372,974,29909.43,Emergency,Paid Off
+3373,975,16900.08,Debt Consolidation,Active
+3374,976,23488.91,Auto,Paid Off
+3375,976,33056.86,Emergency,Paid Off
+3376,976,19255.42,Business,Paid Off
+3377,977,9388.2,Medical,Active
+3378,978,41961.1,Education,Active
+3379,978,4751.53,Medical,Paid Off
+3380,978,21307.43,Debt Consolidation,Active
+3381,978,14512.26,Home,Active
+3382,978,2273.33,Home Improvement,Active
+3383,978,44782.44,Debt Consolidation,Paid Off
+3384,978,15055.62,Medical,Active
+3385,979,18875.75,Home Improvement,Paid Off
+3386,979,24036.23,Emergency,Active
+3387,979,3369.57,Vacation,Active
+3388,979,44934.37,Auto,Paid Off
+3389,980,16705.12,Green Energy,Active
+3390,980,21839.49,Vacation,Paid Off
+3391,980,17631.26,Green Energy,Paid Off
+3392,980,21484.48,Medical,Active
+3393,980,32865.46,Medical,Active
+3394,980,28217.85,Education,Active
+3395,981,39416.05,Personal,Active
+3396,981,25955.47,Medical,Paid Off
+3397,981,37651.43,Education,Active
+3398,981,11100.44,Emergency,Active
+3399,981,39042.9,Emergency,Active
+3400,982,4024.91,Medical,Active
+3401,982,38113.53,Medical,Paid Off
+3402,982,42214.32,Medical,Active
+3403,982,12675.18,Debt Consolidation,Paid Off
+3404,983,41959.68,Emergency,Active
+3405,983,16670.67,Auto,Active
+3406,983,12566.25,Medical,Active
+3407,983,13461.89,Green Energy,Active
+3408,985,5114.28,Medical,Paid Off
+3409,986,44954.54,Green Energy,Active
+3410,986,21735.69,Auto,Paid Off
+3411,986,36271.12,Vacation,Active
+3412,986,37177.29,Business,Active
+3413,986,26006.12,Vacation,Active
+3414,987,22030.33,Home,Active
+3415,987,16873.49,Home,Active
+3416,987,32088.74,Home,Active
+3417,988,48119.66,Business,Paid Off
+3418,988,38621.19,Home,Active
+3419,988,5224.87,Green Energy,Paid Off
+3420,988,25468.42,Education,Paid Off
+3421,988,45721.86,Home,Paid Off
+3422,989,40656.9,Personal,Active
+3423,990,29456.99,Debt Consolidation,Paid Off
+3424,990,19300.54,Vacation,Active
+3425,990,22593.67,Personal,Paid Off
+3426,990,29682.0,Green Energy,Active
+3427,990,19876.07,Home Improvement,Paid Off
+3428,990,2672.52,Auto,Paid Off
+3429,990,16550.4,Green Energy,Active
+3430,991,18713.6,Emergency,Active
+3431,991,7707.34,Debt Consolidation,Active
+3432,991,3016.03,Business,Paid Off
+3433,991,31772.78,Green Energy,Active
+3434,991,12969.35,Personal,Paid Off
+3435,991,48933.81,Vacation,Active
+3436,992,18373.68,Personal,Active
+3437,992,14506.53,Home,Active
+3438,992,23692.26,Auto,Active
+3439,992,2412.25,Personal,Active
+3440,993,6828.0,Home Improvement,Paid Off
+3441,993,1417.08,Debt Consolidation,Active
+3442,993,15891.03,Auto,Paid Off
+3443,994,14745.15,Business,Active
+3444,994,21463.06,Green Energy,Active
+3445,994,29624.24,Home,Active
+3446,995,42571.18,Auto,Paid Off
+3447,996,5323.16,Medical,Paid Off
+3448,996,4524.52,Medical,Active
+3449,997,5213.53,Personal,Paid Off
+3450,997,44225.58,Auto,Paid Off
+3451,997,10078.16,Debt Consolidation,Paid Off
+3452,997,41342.35,Auto,Active
+3453,997,24116.13,Home Improvement,Active
+3454,997,21836.64,Medical,Active
+3455,998,10789.93,Auto,Paid Off
+3456,1000,37525.33,Emergency,Paid Off
+3457,1000,5552.79,Green Energy,Active
+3458,1000,29933.1,Personal,Paid Off
+3459,1000,4256.79,Home Improvement,Active
+3460,1000,7261.31,Home,Paid Off
+3461,1000,42012.78,Vacation,Paid Off

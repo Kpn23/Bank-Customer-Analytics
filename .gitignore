@@ -1,0 +1,17 @@
+.env
+
+__pycache__
+
+airflow.db
+airflow_venv
+csv_output
+add_csv.py
+add_xlsx.py
+output.xlsx
+etl_pipeline copy.py
+pyspark
+folder_structure_generator.py
+trial.py
+
+
+historical_data_generation_pyspark.py
