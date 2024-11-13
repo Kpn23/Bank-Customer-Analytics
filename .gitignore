@@ -2,6 +2,7 @@
 
 __pycache__
 
+logs
 airflow.db
 airflow_venv
 csv_output

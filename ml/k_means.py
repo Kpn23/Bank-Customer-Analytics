@@ -1,6 +1,5 @@
 import matplotlib
-
-matplotlib.use("Agg")  # Use a non-interactive backend
+matplotlib.use('TkAgg') 
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.cluster import KMeans
@@ -71,13 +70,12 @@ def elbow_method(datamart_normalized):
     logging.info(f"Type of normalized data: {type(datamart_normalized)}")
     logging.info(f"Shape of normalized data: {datamart_normalized.shape}")
 
-    model = KMeans()
-    visualizer = KElbowVisualizer(model, k=(1, 10))
-
     visualizer.fit(datamart_normalized)
+    
+    # Show the plot
+    visualizer.show()  # This line will display the elbow plot
 
     return visualizer.elbow_value_
-
 
 def run_kmeans(datamart_normalized, optimal_k):
     kmeans = KMeans(n_clusters=optimal_k, random_state=1)
@@ -122,9 +120,13 @@ def visualize_clusters(datamart_rfm_k, datamart_normalized):
         var_name="Attribute",
         value_name="Value",
     )
+    
     plt.figure(figsize=(10, 6))
-    plt.title("Snake Plot of Standardized Variables")
+    plt.title("Cluster Analysis: Snake Plot of Standardized Variables by Customer Segments")  # Add a descriptive title
     sns.lineplot(x="Attribute", y="Value", hue="Cluster", data=datamart_melt)
+    plt.xlabel("Attributes")
+    plt.ylabel("Standardized Values")
+    plt.legend(title='Customer Segment')
     plt.show()
 
 
@@ -276,29 +278,19 @@ def main():
 
     kmeans_model = run_kmeans(datamart_normalized, optimal_k)
 
-    # save_model(kmeans_model, scaler)
+    save_model(model_directory, kmeans_model, scaler)
 
     cluster_labels = kmeans_model.labels_
 
     datamart_rfm_k = datamart_rfm.assign(Cluster=cluster_labels)
 
-    # evaluate_model(datamart_normalized, cluster_labels)
+    evaluate_model(datamart_normalized, cluster_labels)
 
-    # analyze_clusters(datamart_rfm_k)
+    analyze_clusters(datamart_rfm_k)
 
-    # visualize_clusters(datamart_rfm_k, datamart_normalized)
+    visualize_clusters(datamart_rfm_k, datamart_normalized)
 
-    # relative_importance(datamart_rfm_k)
-
-    new_customer_data = pd.Series([15, 8, 150])
-    predicted_segment = categorize_new_customer(new_customer_data)
-    description = describe_segments(datamart_rfm_k)[predicted_segment]
-    print(f"The customer belongs to segment {predicted_segment} \n{description}")
-
-    "Allow user to input customer_id as paramater for API call"
-    "Allow user to review the elbow method and choose cluster they wants"
-    "Display current model trained time"
-    "Suggest some product to customer according to segment"
+    relative_importance(datamart_rfm_k)
 
 
 if __name__ == "__main__":

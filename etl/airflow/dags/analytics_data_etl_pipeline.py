@@ -5,25 +5,20 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import os
 import logging
-import sys
 import sqlite3
 
-
+# Set up logging configuration
 logging.basicConfig(level=logging.INFO)
 
+# Load environment variables
 load_dotenv()
 folder_directory = os.getenv("folder_path")
 
-sys.path.append(folder_directory)
-
-
-from scripts.realtime_data_generation import *
-
+# Database paths
 database_db_path = f"{folder_directory}/data/bank_customer_data.db"
-analytics_data_warehouse_db_path = (
-    f"{folder_directory}/data/analytics_data_warehouse.db"
-)
+analytics_data_warehouse_db_path = f"{folder_directory}/data/analytics_data_warehouse.db"
 
+# Unique ID columns for various tables
 unique_id_columns = {
     "customers": "customer_id",
     "addresses": "address_id",
@@ -34,7 +29,7 @@ unique_id_columns = {
     "account_types": "account_type_id",
 }
 
-
+# Default arguments for the DAG
 default_args = {
     "owner": "Paul",
     "depends_on_past": False,
@@ -48,71 +43,42 @@ default_args = {
 dag2 = DAG(
     "analytics_data_etl_pipeline",
     default_args=default_args,
-    description="ETL data from database to datawarehouse for data mining",
-    schedule=timedelta(seconds=20),
+    description="ETL data from database to data warehouse for data mining",
+    schedule_interval=timedelta(minutes=1),
     catchup=False,
 )
 
-"------------For Cohort Analysis-------------"
-
+def get_db_connection(db_path):
+    """Create a new database connection."""
+    return sqlite3.connect(db_path)
 
 def extract_cohort_data(db_path):
-    """
-    Extracts necessary data for cohort analysis from the SQLite database.
-
-    Parameters:
-    db_path (str): Path to the SQLite database file.
-
-    Returns:
-    pd.DataFrame: DataFrame containing customer_id, open_date, and transaction_date.
-    """
-    # Connect to the SQLite database
-    conn = sqlite3.connect(db_path)
-
-    # SQL query to extract relevant data
+    """Extract necessary data for cohort analysis from the SQLite database."""
     query = """
-    SELECT
-        r.customer_id,
-        c.start_date AS combined_date
-    FROM
-        campaigns c
-    JOIN
-        recipients r ON c.campaign_id = r.campaign_id
-    WHERE
-        c.campaign_id = 3
+        SELECT r.customer_id, c.start_date AS combined_date
+        FROM campaigns c
+        JOIN recipients r ON c.campaign_id = r.campaign_id
+        WHERE c.campaign_id = 3
 
-    UNION
+        UNION
 
-    SELECT
-        r.customer_id,
-        r.response_date AS combined_date
-    FROM
-        campaigns c
-    JOIN
-        recipients r ON c.campaign_id = r.campaign_id
-    WHERE
-        c.campaign_id = 3;
+        SELECT r.customer_id, r.response_date AS combined_date
+        FROM campaigns c
+        JOIN recipients r ON c.campaign_id = r.campaign_id
+        WHERE c.campaign_id = 3;
     """
-
-    # Execute the query and load data into a DataFrame
-    cohort_df = pd.read_sql_query(query, conn)
-
-    # Close the database connection
-    conn.close()
+    
+    with get_db_connection(db_path) as conn:
+        cohort_df = pd.read_sql_query(query, conn)
 
     return cohort_df
 
-
 def transform_cohort_data(cohort_df):
-    # Convert date columns to datetime format
-    cohort_df["combined_date"] = pd.to_datetime(
-        cohort_df["combined_date"], format="ISO8601"
-    )
-
-    # Create InvoiceMonth and CohortMonth
-    cohort_df["InvoiceMonth"] = (
-        cohort_df["combined_date"].dt.to_period("M").dt.to_timestamp()
-    )
+    """Transform the cohort data to calculate retention rates."""
+    cohort_df["combined_date"] = pd.to_datetime(cohort_df["combined_date"], format="ISO8601")
+    
+    cohort_df["InvoiceMonth"] = cohort_df["combined_date"].dt.to_period("M").dt.to_timestamp()
+    
     cohort_df["CohortMonth"] = (
         cohort_df.groupby("customer_id")["combined_date"]
         .transform("min")
@@ -120,148 +86,95 @@ def transform_cohort_data(cohort_df):
         .dt.to_timestamp()
     )
 
-    # Calculate CohortIndex
-    def calculate_cohort_index(row):
-        if pd.isna(row["InvoiceMonth"]) or pd.isna(row["CohortMonth"]):
-            return 0
-        return (
-            (row["InvoiceMonth"].year - row["CohortMonth"].year) * 12
-            + (row["InvoiceMonth"].month - row["CohortMonth"].month)
-            + 1
-        )
-
-    cohort_df["CohortIndex"] = cohort_df.apply(calculate_cohort_index, axis=1)
-    cohort_data = cohort_df.dropna(subset=["CohortIndex"])
-
-    # Grouping by CohortMonth and CohortIndex to get unique customer_id counts
+    cohort_df["CohortIndex"] = cohort_df.apply(lambda row: (
+        (row["InvoiceMonth"].year - row["CohortMonth"].year) * 12 +
+        (row["InvoiceMonth"].month - row["CohortMonth"].month) + 1) if pd.notna(row["InvoiceMonth"]) and pd.notna(row["CohortMonth"]) else 0,
+        axis=1
+    )
+    
     cohort_counts = (
-        cohort_data.groupby(["CohortMonth", "CohortIndex"])["customer_id"]
+        cohort_df.dropna(subset=["CohortIndex"])
+        .groupby(["CohortMonth", "CohortIndex"])["customer_id"]
         .nunique()
         .reset_index(name="customer_count")
     )
 
-    # Pivoting the DataFrame
-    cohort_counts_pivot = cohort_counts.pivot(
-        index="CohortMonth", columns="CohortIndex", values="customer_count"
-    )
-
-    # Ensure cohort_sizes is a Series with matching index type
+    cohort_counts_pivot = cohort_counts.pivot(index="CohortMonth", columns="CohortIndex", values="customer_count")
+    
     cohort_sizes = cohort_counts.groupby("CohortMonth")["customer_count"].sum()
-
-    # Align indices for division
+    
     retention = cohort_counts_pivot.divide(cohort_sizes, axis=0).fillna(0)
-
-    # Review retention table
-    retention_percentage = retention.round(3) * 100
-
-    return retention_percentage  # Return the retention percentage instead of an undefined variable
-
-
-"------------For RFM Analysis-------------"
-
+    
+    return retention.round(3) * 100  # Return retention percentage
 
 @task(dag=dag2)
 def extract_RFM_data(db_path):
-    """
-    Extracts necessary data for RFM analysis from the SQLite database.
-
-    Parameters:
-    db_path (str): Path to the SQLite database file.
-
-    Returns:
-    pd.DataFrame: DataFrame containing customer_id, recency, frequency, and monetary value.
-    """
-    # Connect to the SQLite database
-    conn = sqlite3.connect(db_path)
-
-    # SQL query to extract relevant data
+    """Extract necessary data for RFM analysis from the SQLite database."""
     query = """
-    SELECT 
-        c.customer_id,
-        a.open_date,
-        t.transaction_date,
-        t.transaction_amount
-    FROM 
-        CUSTOMERS c
-    JOIN 
-        ACCOUNTS a ON c.customer_id = a.customer_id
-    JOIN 
-        TRANSACTIONS t ON a.account_id = t.account_id
+        SELECT 
+            c.customer_id,
+            a.open_date,
+            t.transaction_date,
+            t.transaction_amount
+        FROM 
+            CUSTOMERS c
+        JOIN 
+            ACCOUNTS a ON c.customer_id = a.customer_id
+        JOIN 
+            TRANSACTIONS t ON a.account_id = t.account_id;
     """
-
-    # Execute the query and load data into a DataFrame
-    RFM_df1 = pd.read_sql_query(query, conn)
-    RFM = RFM_df1.to_dict(orient="records")
-
-    # Close the database connection
-    conn.close()
-    return RFM
-
+    
+    with get_db_connection(db_path) as conn:
+        RFM_df1 = pd.read_sql_query(query, conn)
+        
+    return RFM_df1.to_dict(orient="records")
 
 @task(dag=dag2)
 def transform_RFM_data(RFM):
+    """Transform the RFM data to calculate Recency, Frequency, and Monetary Value."""
     RFM_df2 = pd.DataFrame(RFM)
-    # Convert date columns to datetime format
+    
     RFM_df2["open_date"] = pd.to_datetime(RFM_df2["open_date"], format="ISO8601")
-    RFM_df2["transaction_date"] = pd.to_datetime(
-        RFM_df2["transaction_date"], format="ISO8601"
-    )
+    RFM_df2["transaction_date"] = pd.to_datetime(RFM_df2["transaction_date"], format="ISO8601")
 
-    # Calculate Recency (days since last transaction)
     snapshot_date = datetime.now()
+    
     RFM_df2["Recency"] = (snapshot_date - RFM_df2["transaction_date"]).dt.days
-
-    # Calculate Frequency and Monetary Value
-    RFM_transformed_df1 = (
+    
+    RFM_transformed = (
         RFM_df2.groupby("customer_id")
         .agg(
-            Recency=("Recency", "min"),  # Minimum recency for each customer
-            Frequency=("transaction_date", "count"),  # Count of transactions
-            MonetaryValue=("transaction_amount", "sum"),  # Sum of transaction amounts
+            Recency=("Recency", "min"),
+            Frequency=("transaction_date", "count"),
+            MonetaryValue=("transaction_amount", "sum"),
         )
         .reset_index()
+        .to_dict(orient="records")
     )
-    RFM_transformed = RFM_transformed_df1.to_dict(orient="records")
+    
     return RFM_transformed
-
-
-"------------Load to the warehouse-------------"
-
 
 @task(dag=dag2)
 def load_to_warehouse(db_path, dataframes_to_save, table_names_to_save):
-    df = pd.DataFrame(dataframes_to_save)
-    logging.info(f"dataframe to be saved: {df}")
-    def save_to_database(db_name, dataframe_df, table_names_to_save):
-        logging.info(f"Saving DataFrames to {db_name}...")
+    """Load transformed data into the analytics data warehouse."""
+    
+    df_to_save = pd.DataFrame(dataframes_to_save)
+    
+    logging.info(f"DataFrame to be saved: {df_to_save}")
 
-        conn = sqlite3.connect(db_name)
+    with get_db_connection(db_path) as conn:
+        df_to_save.to_sql(table_names_to_save.lower(), conn, if_exists="replace", index=False)
 
-        dataframe_df.to_sql(
-            table_names_to_save.lower(), conn, if_exists="replace", index=False
-        )
+    logging.info("Finished saving DataFrames to database.")
 
-        conn.close()
-        logging.info("Finished saving DataFrames to database.")
-
-    save_to_database(
-        db_path,
-        df,
-        table_names_to_save,
-    )
-
-
-"------------DAG2 task-------------"
+# DAG task dependencies
 extract_RFM_data_task = extract_RFM_data(database_db_path)
-
 transform_RFM_data_task = transform_RFM_data(extract_RFM_data_task)
-
 load_RFM_to_warehouse_task = load_to_warehouse(
     analytics_data_warehouse_db_path, transform_RFM_data_task, "RFM_analysis"
 )
 
 extract_RFM_data_task >> transform_RFM_data_task >> load_RFM_to_warehouse_task
-
 
 if __name__ == "__main__":
     # # cohort analysis etl pipeline

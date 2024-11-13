@@ -95,6 +95,23 @@ stop-dfs.sh
 
 ```text
 Banking_Customer_Insights_Dashboard/
+├── api/
+│   └── fastapi_app.py
+│
+├── dashboard/
+│   ├── source file               
+│   │   ├── account_types.csv
+│   │   ├── accounts.csv
+│   │   ├── addresses.csv  
+│   │   ├── campaigns.csv
+│   │   ├── cohort_analysis.csv  
+│   │   ├── customer_segment.csv
+│   │   ├── customers.csv
+│   │   ├── loans.csv
+│   │   ├── recipients.csv
+│   │   ├── rfm_analysis.csv
+│   │   └── transactions.csv
+│   └── insight_dashboard.pbix
 │
 ├── data/
 │   ├── analytics_data_warehouse.db
@@ -102,35 +119,38 @@ Banking_Customer_Insights_Dashboard/
 │
 ├── etl/
 │   ├── airflow/                  
-│   │   ├── dags/                 
-│   │   │   └── etl_pipeline.py   # Main ETL pipeline script
+│   │   ├── dags/
+│   │   │   ├── analytics_data_etl_pipeline.py
+│   │   │   ├── dashboard_pipeline.py
+│   │   │   ├── ml_modeling_pipeline.py                
+│   │   │   └── realtime_data_etl_pipeline.py
 │   │   ├── logs/
-│   │   └── airflow.cfg           # Airflow configuration file
+│   │   ├── airflow.cfg           
+│   │   └── webserver_config.py
+│
+├── gui/
+│   └── main_window.py
 │
 ├── ml/
 │   ├── models/                   
 │   │   ├── kmeans_model.pkl
 │   │   └── scaler.pkl
-│   └── k-means.py                # Script for customer segmentation model
+│   └── k-means.py              
 │
 ├── notebook/
 │   └── EDA.ipynb
 │
 ├── scripts/                     
 │   ├── data_generation.py        
-│   └── realtime_data_generation.py
+│   └── realtime_data_generation.py         
 │
-├── api/
-│   ├── __init__.py
-│   └── fastapi_app.py            # New file for FastAPI application
-│
-├── tmp/                          # New folder for lock files
+├── tmp/                     
 │   ├── airflow.lock
 │   └── fastapi.lock
 │
 ├── .env.sample  
 ├── .gitignore
-├── main.py                       # Your main script to start both Airflow and FastAPI
+├── main.py                       
 ├── README.md
 └── requirements.txt
 ```
