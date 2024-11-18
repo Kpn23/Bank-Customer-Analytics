@@ -96,9 +96,6 @@ Banking_Customer_Insights_Dashboard/
 │   │   └── scaler.pkl
 │   └── k-means.py              
 │
-├── notebook/
-│   └── EDA.ipynb
-│
 ├── scripts/                     
 │   ├── data_generation.py        
 │   └── realtime_data_generation.py         
