@@ -1,6 +1,6 @@
 # Bank Customer Analytics System
 
-This README provides a brief overview of the Bank Customer Analytics System project. For a comprehensive understanding of the implementation details, please refer to my article [here](https://medium.com/@kpn23/bank-customer-analytics-system-a-data-engineering-and-ml-project-610d7e157f39).
+This README provides a brief overview of the Bank Customer Analytics System project. For a comprehensive understanding of the system, please refer to my article [here](https://medium.com/@kpn23/bank-customer-analytics-system-a-data-engineering-and-ml-project-610d7e157f39).
 
 ## Project Description
 
