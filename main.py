@@ -4,15 +4,20 @@ import signal
 import os
 import logging
 import sys
+import multiprocessing
 from filelock import FileLock
 from dotenv import load_dotenv
 from api.fastapi_app import * 
 from gui.main_window import MainSystem 
 
+# Set multiprocessing start method to 'fork' for macOS
+if sys.platform == 'darwin':
+    multiprocessing.set_start_method('fork')
+
 # Load environment variables
 load_dotenv()
 FOLDER_DIRECTORY = os.getenv("folder_path")
-AIRFLOW_HOME = "/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow"
+AIRFLOW_HOME = os.path.join(FOLDER_DIRECTORY, "etl", "airflow")
 AIRFLOW_LOCK = os.path.join(FOLDER_DIRECTORY, "tmp", "airflow.lock")
 FASTAPI_LOCK = os.path.join(FOLDER_DIRECTORY, "tmp", "fastapi.lock")
 
@@ -94,7 +99,21 @@ async def main():
     except KeyboardInterrupt:
         logger.info("Shutting down...")
 
+def signal_handler(signum, frame):
+    logger.info(f"Received signal {signum}")
+    cleanup()
+    sys.exit(0)
+
 if __name__ == "__main__":
     os.environ["AIRFLOW_HOME"] = AIRFLOW_HOME
+    # Register cleanup for normal exit
     atexit.register(cleanup)
-    asyncio.run(main())
+    # Register signal handlers for terminal closure
+    signal.signal(signal.SIGTERM, signal_handler)
+    signal.signal(signal.SIGINT, signal_handler)
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        logger.info("Received keyboard interrupt")
+        cleanup()
+        sys.exit(0)

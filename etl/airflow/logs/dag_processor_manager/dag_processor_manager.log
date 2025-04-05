@@ -498,3 +498,711 @@ File Path                                                                       
 /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/etl_pipeline copy.py                                     0           0  0.98s           2024-11-11T07:00:28                       3
 ================================================================================
 [2024-11-11T15:01:06.842+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:11:39.056+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:11:39.057+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:11:39.057+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:11:39.057+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:11:39.057+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:11:39.852+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.71s           2025-04-02T13:11:39                       3
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:12:03.313+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:12:21.737+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:12:21.737+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:12:21.737+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:12:21.737+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:12:21.741+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:12:22.614+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.80s           2025-04-02T13:12:22                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:14:36.749+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:14:36.749+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:14:36.749+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:14:36.749+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:14:36.751+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:14:37.537+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.71s           2025-04-02T13:14:37                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:15:06.063+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:15:15.590+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:15:15.590+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:15:15.590+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:15:15.591+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:15:15.592+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:15:16.415+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.74s           2025-04-02T13:15:16                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:15:47.890+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.99s           2025-04-02T13:15:47                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           1  0.72s           2025-04-02T13:15:19                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           1  0.70s           2025-04-02T13:15:20                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           1  0.70s           2025-04-02T13:15:18                       5
+================================================================================
+[2025-04-02T21:16:19.740+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  1.08s           2025-04-02T13:16:19                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           1  0.76s           2025-04-02T13:15:51                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           1  0.73s           2025-04-02T13:15:49                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           1  0.72s           2025-04-02T13:15:53                       5
+================================================================================
+[2025-04-02T21:16:35.598+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:16:49.928+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:16:49.929+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:16:49.929+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:16:49.929+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:16:49.930+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:16:50.757+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.74s           2025-04-02T13:16:50                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:17:06.696+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:18:17.322+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:18:17.322+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:18:17.322+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:18:17.322+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:18:17.325+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:18:18.107+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.71s           2025-04-02T13:18:18                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:18:42.590+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:20:10.068+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:20:10.068+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:20:10.068+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:20:10.069+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:20:10.071+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:20:10.854+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.71s           2025-04-02T13:20:10                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:20:42.096+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           1  0.73s           2025-04-02T13:20:14                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.73s           2025-04-02T13:20:42                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           1  0.71s           2025-04-02T13:20:15                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           1  0.70s           2025-04-02T13:20:12                       5
+================================================================================
+[2025-04-02T21:21:13.644+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.81s           2025-04-02T13:21:13                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           1  0.72s           2025-04-02T13:20:47                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           1  0.72s           2025-04-02T13:20:45                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           1  0.71s           2025-04-02T13:20:43                       5
+================================================================================
+[2025-04-02T21:21:44.510+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.74s           2025-04-02T13:21:44                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           1  0.73s           2025-04-02T13:21:18                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           1  0.71s           2025-04-02T13:21:16                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           1  0.71s           2025-04-02T13:21:15                       5
+================================================================================
+[2025-04-02T21:22:15.734+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  1.04s           2025-04-02T13:22:15                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           1  0.72s           2025-04-02T13:21:49                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           1  0.71s           2025-04-02T13:21:47                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           1  0.70s           2025-04-02T13:21:46                       5
+================================================================================
+[2025-04-02T21:22:16.143+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:24:53.435+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:24:53.435+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:24:53.435+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:24:53.435+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:24:53.437+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:24:54.230+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.72s           2025-04-02T13:24:54                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:25:25.421+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           1  0.73s           2025-04-02T13:24:56                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           1  0.72s           2025-04-02T13:24:57                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           1  0.71s           2025-04-02T13:25:25                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           1  0.69s           2025-04-02T13:24:58                       5
+================================================================================
+[2025-04-02T21:25:40.462+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:30:38.779+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:30:38.780+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:30:38.780+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:30:38.781+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:30:38.783+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:30:48.061+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  9.23s           2025-04-02T13:30:48                      45
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:31:20.252+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           1  31.11s          2025-04-02T13:31:20                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  9.23s           2025-04-02T13:30:48                      45
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+================================================================================
+[2025-04-02T21:31:55.175+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           1  4.87s           2025-04-02T13:31:55                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.46s           2025-04-02T13:31:22                      45
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.07s           2025-04-02T13:31:24                      45
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.05s           2025-04-02T13:31:26                      12
+================================================================================
+[2025-04-02T21:32:11.561+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:32:44.997+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:32:44.997+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:32:44.997+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:32:44.997+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:32:44.999+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:32:46.298+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.25s           2025-04-02T13:32:46                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:33:18.088+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           1  2.41s           2025-04-02T13:32:49                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.14s           2025-04-02T13:33:18                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.05s           2025-04-02T13:32:51                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.04s           2025-04-02T13:32:53                      12
+================================================================================
+[2025-04-02T21:33:50.067+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           1  2.41s           2025-04-02T13:33:22                       5
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.59s           2025-04-02T13:33:50                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.25s           2025-04-02T13:33:24                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.12s           2025-04-02T13:33:26                      12
+================================================================================
+[2025-04-02T21:34:05.994+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:34:37.003+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:34:37.003+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:34:37.003+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:34:37.003+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:34:37.006+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:34:38.252+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.20s           2025-04-02T13:34:38                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:35:09.914+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  3.96s           2025-04-02T13:34:43                      45
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.50s           2025-04-02T13:35:09                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.11s           2025-04-02T13:34:45                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.01s           2025-04-02T13:34:47                      12
+================================================================================
+[2025-04-02T21:35:42.125+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.90s           2025-04-02T13:35:16                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.59s           2025-04-02T13:35:42                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.31s           2025-04-02T13:35:20                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.01s           2025-04-02T13:35:18                      12
+================================================================================
+[2025-04-02T21:40:08.045+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:40:08.046+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:40:08.046+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:40:08.046+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:40:08.048+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:40:09.536+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.44s           2025-04-02T13:40:09                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:40:55.579+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:41:22.618+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:41:22.618+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:41:22.618+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:41:22.619+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:41:22.622+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:41:23.928+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.26s           2025-04-02T13:41:23                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:44:16.433+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:44:16.433+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:44:16.433+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:44:16.433+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:44:16.436+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:44:19.795+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  3.30s           2025-04-02T13:44:19                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:45:01.096+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:45:01.096+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:45:01.096+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:45:01.096+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:45:01.099+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:45:02.417+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.26s           2025-04-02T13:45:02                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:45:03.669+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:45:32.394+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:45:32.394+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:45:32.394+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:45:32.394+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:45:32.397+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:45:33.687+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.24s           2025-04-02T13:45:33                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:46:52.616+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T21:53:05.524+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T21:53:05.525+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T21:53:05.525+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T21:53:05.525+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:53:05.527+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T21:53:16.343+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  10.77s          2025-04-02T13:53:16                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T21:54:24.571+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T22:00:01.961+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T22:00:01.961+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T22:00:01.962+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T22:00:01.962+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:00:01.964+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:00:03.363+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.35s           2025-04-02T14:00:03                      34
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T22:00:46.961+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T22:00:46.961+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T22:00:46.961+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T22:00:46.961+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:00:46.964+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:00:48.154+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.14s           2025-04-02T14:00:48                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T22:00:56.765+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T22:01:11.628+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T22:01:11.628+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T22:01:11.629+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T22:01:11.629+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:01:11.630+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:01:12.767+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.09s           2025-04-02T14:01:12                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T22:03:29.432+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T22:03:41.165+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T22:03:41.165+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T22:03:41.165+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T22:03:41.165+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:03:41.168+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:03:42.460+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.24s           2025-04-02T14:03:42                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T22:04:52.407+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T22:04:53.280+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T22:04:53.280+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T22:04:53.280+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T22:04:53.280+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:04:53.282+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:04:54.443+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.11s           2025-04-02T14:04:54                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T22:05:27.226+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.59s           2025-04-02T14:05:27                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.11s           2025-04-02T14:04:54                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.07s           2025-04-02T14:05:10                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+================================================================================
+[2025-04-02T22:06:00.228+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.59s           2025-04-02T14:05:27                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.21s           2025-04-02T14:06:00                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.13s           2025-04-02T14:05:41                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.08s           2025-04-02T14:05:44                      12
+================================================================================
+[2025-04-02T22:06:32.959+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.54s           2025-04-02T14:06:16                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.21s           2025-04-02T14:06:00                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.09s           2025-04-02T14:06:32                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.08s           2025-04-02T14:06:18                      12
+================================================================================
+[2025-04-02T22:07:08.290+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.48s           2025-04-02T14:06:51                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.12s           2025-04-02T14:06:54                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.11s           2025-04-02T14:07:08                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.08s           2025-04-02T14:06:35                      12
+================================================================================
+[2025-04-02T22:07:44.322+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.57s           2025-04-02T14:07:26                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.25s           2025-04-02T14:07:29                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.09s           2025-04-02T14:07:44                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.09s           2025-04-02T14:07:10                      12
+================================================================================
+[2025-04-02T22:08:18.547+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.44s           2025-04-02T14:08:02                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.07s           2025-04-02T14:08:18                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.07s           2025-04-02T14:07:46                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.05s           2025-04-02T14:08:04                      12
+================================================================================
+[2025-04-02T22:08:50.605+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.53s           2025-04-02T14:08:35                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.16s           2025-04-02T14:08:37                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.10s           2025-04-02T14:08:20                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.05s           2025-04-02T14:08:50                      12
+================================================================================
+[2025-04-02T22:09:22.177+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.63s           2025-04-02T14:09:08                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.11s           2025-04-02T14:09:11                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.10s           2025-04-02T14:08:51                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.09s           2025-04-02T14:09:22                      12
+================================================================================
+[2025-04-02T22:09:54.379+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.39s           2025-04-02T14:09:41                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.39s           2025-04-02T14:09:54                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.07s           2025-04-02T14:09:44                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.06s           2025-04-02T14:09:24                      12
+================================================================================
+[2025-04-02T22:09:55.409+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:09:55.412+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:10:27.049+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.46s           2025-04-02T14:10:14                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.08s           2025-04-02T14:09:56                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.08s           2025-04-02T14:10:16                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.05s           2025-04-02T14:10:27                      12
+================================================================================
+[2025-04-02T22:10:49.395+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-02T22:13:49.606+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-02T22:13:49.607+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-02T22:13:49.607+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-02T22:13:49.607+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:13:49.609+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-02T22:13:50.952+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.29s           2025-04-02T14:13:50                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-02T22:13:52.488+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-03T12:13:06.150+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-03T12:13:06.151+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-03T12:13:06.151+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-03T12:13:06.151+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-03T12:13:06.154+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-03T12:13:08.353+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  2.15s           2025-04-03T04:13:08                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-03T12:13:39.745+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  3.68s           2025-04-03T04:13:22                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.19s           2025-04-03T04:13:26                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.13s           2025-04-03T04:13:14                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.13s           2025-04-03T04:13:39                      12
+================================================================================
+[2025-04-03T12:14:11.405+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.57s           2025-04-03T04:13:55                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.15s           2025-04-03T04:13:58                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.15s           2025-04-03T04:14:11                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.08s           2025-04-03T04:13:47                      12
+================================================================================
+[2025-04-03T12:14:43.335+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  1           0  2.65s           2025-04-03T04:14:28                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  1.61s           2025-04-03T04:14:43                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    1           0  1.25s           2025-04-03T04:14:30                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            1           0  1.17s           2025-04-03T04:14:18                      12
+================================================================================
+[2025-04-03T12:14:49.698+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-03T13:27:01.559+0800] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-04-03T13:27:01.559+0800] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-04-03T13:27:01.560+0800] {manager.py:485} INFO - Checking for new files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags every 300 seconds
+[2025-04-03T13:27:01.560+0800] {manager.py:821} INFO - Searching for files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-03T13:27:01.563+0800] {manager.py:824} INFO - There are 4 files in /Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags
+[2025-04-03T13:27:03.864+0800] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                           PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/analytics_data_etl_pipeline.py                           1           0  2.23s           2025-04-03T05:27:03                      12
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/dashboard_pipeline.py                                    0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/realtime_data_etl_pipeline.py                            0           0                                                            0
+/Users/superdayuanjingzhi/Documents/JDE-python/p_AnalyticsPlatform/etl/airflow/dags/ml_modeling_pipeline.py                                  0           0                                                            0
+================================================================================
+[2025-04-03T13:27:23.175+0800] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

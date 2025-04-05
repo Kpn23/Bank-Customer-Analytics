@@ -17,3 +17,6 @@ instruction.md
 notebook_copy
 
 historical_data_generation_pyspark.py
+
+
+pkill -f "airflow|uvicorn" && rm -f etl/airflow/airflow-webserver.pid tmp/airflow.lock tmp/fastapi.lock

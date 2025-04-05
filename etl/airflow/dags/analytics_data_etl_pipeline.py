@@ -16,7 +16,7 @@ folder_directory = os.getenv("folder_path")
 
 # Database paths
 database_db_path = f"{folder_directory}/data/bank_customer_data.db"
-analytics_data_warehouse_db_path = f"{folder_directory}/data/analytics_data_warehouse.db"
+analytics_data_warehouse_db_path = f"{folder_directory}/data/Analytics_Data_Warehouse.db"
 
 # Unique ID columns for various tables
 unique_id_columns = {
@@ -49,8 +49,14 @@ dag2 = DAG(
 )
 
 def get_db_connection(db_path):
-    """Create a new database connection."""
-    return sqlite3.connect(db_path)
+    """Create a new database connection with error handling."""
+    if not os.path.exists(db_path):
+        raise FileNotFoundError(f"Database file not found: {db_path}")
+    try:
+        return sqlite3.connect(db_path)
+    except sqlite3.Error as e:
+        logging.error(f"Error connecting to database: {e}")
+        raise
 
 def extract_cohort_data(db_path):
     """Extract necessary data for cohort analysis from the SQLite database."""
@@ -156,16 +162,38 @@ def transform_RFM_data(RFM):
 
 @task(dag=dag2)
 def load_to_warehouse(db_path, dataframes_to_save, table_names_to_save):
-    """Load transformed data into the analytics data warehouse."""
-    
-    df_to_save = pd.DataFrame(dataframes_to_save)
-    
-    logging.info(f"DataFrame to be saved: {df_to_save}")
-
-    with get_db_connection(db_path) as conn:
-        df_to_save.to_sql(table_names_to_save.lower(), conn, if_exists="replace", index=False)
-
-    logging.info("Finished saving DataFrames to database.")
+    """Load transformed data into the analytics data warehouse with validation and error handling."""
+    try:
+        # Validate inputs
+        if not isinstance(dataframes_to_save, (pd.DataFrame, dict)):
+            raise ValueError("dataframes_to_save must be a DataFrame or dictionary")
+        if not isinstance(table_names_to_save, str):
+            raise ValueError("table_names_to_save must be a string")
+            
+        # Convert to DataFrame if needed
+        df_to_save = pd.DataFrame(dataframes_to_save) if isinstance(dataframes_to_save, dict) else dataframes_to_save
+        
+        logging.info(f"DataFrame to be saved: {df_to_save.shape}")
+        
+        # Validate DataFrame is not empty
+        if df_to_save.empty:
+            raise ValueError("DataFrame is empty")
+            
+        with get_db_connection(db_path) as conn:
+            df_to_save.to_sql(
+                table_names_to_save.lower(),
+                conn,
+                if_exists="replace",
+                index=False,
+                method='multi',  # More efficient for large datasets
+                chunksize=1000   # Process in chunks to avoid memory issues
+            )
+            
+        logging.info(f"Successfully saved DataFrame to table {table_names_to_save}")
+        
+    except Exception as e:
+        logging.error(f"Error in load_to_warehouse: {str(e)}")
+        raise
 
 # DAG task dependencies
 extract_RFM_data_task = extract_RFM_data(database_db_path)
